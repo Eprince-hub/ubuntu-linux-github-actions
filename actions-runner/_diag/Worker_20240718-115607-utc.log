@@ -1,0 +1,3153 @@
+[2024-07-18 11:56:07Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2024-07-18 11:56:07Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:07Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:07Z INFO HostContext] Well known config file 'Credentials': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials'
+[2024-07-18 11:56:07Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:07Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:07Z INFO HostContext] Well known config file 'Runner': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.runner'
+[2024-07-18 11:56:07Z INFO Worker] Version: 2.317.0
+[2024-07-18 11:56:07Z INFO Worker] Commit: 6dc005ee3690a0303e0d7269b6f60295d22dcfad
+[2024-07-18 11:56:07Z INFO Worker] Culture: en-US
+[2024-07-18 11:56:07Z INFO Worker] UI Culture: en-US
+[2024-07-18 11:56:07Z INFO Worker] Waiting to receive the job message from the channel.
+[2024-07-18 11:56:07Z INFO ProcessChannel] Receiving message of length 24615, with hash 'c02fe8bd7d84c348094167edd5098541c67f037ec0a30f7ef40cdd2576308b38'
+[2024-07-18 11:56:07Z INFO Worker] Message received.
+[2024-07-18 11:56:07Z INFO Worker] Job message:
+ {
+  "fileTable": [
+    ".github/workflows/update-postgresql-conf.yml"
+  ],
+  "mask": [
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "type": "action",
+      "reference": {
+        "type": "repository",
+        "name": "actions/checkout",
+        "ref": "v2",
+        "repositoryType": "GitHub",
+        "path": ""
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 13,
+        "col": 15,
+        "lit": "Checkout repository"
+      },
+      "contextName": "__actions_checkout",
+      "condition": "success()",
+      "id": "c5d51b75-1f02-5443-c606-54aa220ce36b",
+      "name": "__actions_checkout"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 16,
+        "col": 15,
+        "lit": "Update PostgreSQL Conf"
+      },
+      "contextName": "__run",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 17,
+              "col": 14,
+              "lit": "# Example command to update postgresql.conf\necho \"Updating postgresql.conf...\"\necho \"Postgres file path...\"\n"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "e9ef45bf-5dc9-5291-ef92-11cf68cbcb22",
+      "name": "__run"
+    }
+  ],
+  "variables": {
+    "system.isScheduled": {
+      "value": "False"
+    },
+    "system.servertype": {
+      "value": "Hosted"
+    },
+    "system.culture": {
+      "value": ""
+    },
+    "system.pipelineStartTime": {
+      "value": "2024-07-18 11:56:04+00:00"
+    },
+    "system.runner.lowdiskspacethreshold": {
+      "value": "100"
+    },
+    "DistributedTask.NewActionMetadata": {
+      "value": "true"
+    },
+    "DistributedTask.EnableCompositeActions": {
+      "value": "true"
+    },
+    "DistributedTask.EnhancedAnnotations": {
+      "value": "true"
+    },
+    "DistributedTask.UploadStepSummary": {
+      "value": "true"
+    },
+    "DistributedTask.ForceGithubJavascriptActionsToNode16": {
+      "value": "true"
+    },
+    "DistributedTask.ForceGithubJavascriptActionsToNode20": {
+      "value": "true"
+    },
+    "DistributedTask.AddWarningToNode12Action": {
+      "value": "true"
+    },
+    "DistributedTask.AddWarningToNode16Action": {
+      "value": "true"
+    },
+    "DistributedTask.LogTemplateErrorsAsDebugMessages": {
+      "value": "true"
+    },
+    "DistributedTask.AllowRunnerContainerHooks": {
+      "value": "true"
+    },
+    "DistributedTask.DeprecateStepOutputCommands": {
+      "value": "true"
+    },
+    "DistributedTask.UseWhich2": {
+      "value": "true"
+    },
+    "DistributedTask.DetailUntarFailure": {
+      "value": "true"
+    },
+    "DistributedTask.UseActionArchiveCache": {
+      "value": "true"
+    },
+    "DistributedTask.EnableJobServerQueueTelemetry": {
+      "value": "true"
+    },
+    "DistributedTask.MarkJobAsFailedOnWorkerCrash": {
+      "value": "true"
+    },
+    "Actions.EnableHttpRedirects": {
+      "value": "true"
+    },
+    "system.teamProjectId": {
+      "value": "00000000-0000-0000-0000-000000000000"
+    },
+    "build.buildId": {
+      "value": "1"
+    },
+    "build.containerId": {
+      "value": "15402080"
+    },
+    "system.workflowFilePath": {
+      "value": ".github/workflows/update-postgresql-conf.yml"
+    },
+    "system.phaseDisplayName": {
+      "value": "update-conf"
+    },
+    "system.phaseId": {
+      "value": "729166fa-2f56-5a46-3f9b-a71889758cb8"
+    },
+    "system.phaseName": {
+      "value": "update-conf"
+    },
+    "system.phaseAttempt": {
+      "value": "1"
+    },
+    "system.jobIdentifier": {
+      "value": "update-conf.__default"
+    },
+    "system.jobAttempt": {
+      "value": "1"
+    },
+    "System.JobPositionInPhase": {
+      "value": "1"
+    },
+    "System.TotalJobsInPhase": {
+      "value": "1"
+    },
+    "system.github.job": {
+      "value": "update-conf"
+    },
+    "system.jobDisplayName": {
+      "value": "update-conf"
+    },
+    "system.jobId": {
+      "value": "96fdfcd3-7ef5-5e82-df4d-006ab21f14e7"
+    },
+    "system.jobName": {
+      "value": "__default"
+    },
+    "system.github.token.permissions": {
+      "value": "{\"Contents\":\"read\",\"Metadata\":\"read\",\"Packages\":\"read\"}"
+    },
+    "system.github.token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.runnerEnvironment": {
+      "value": "self-hosted"
+    },
+    "system.github.results_endpoint": {
+      "value": "https://results-receiver.actions.githubusercontent.com/"
+    },
+    "system.github.results_upload_with_sdk": {
+      "value": "True"
+    },
+    "system.orchestrationId": {
+      "value": "55990d20-cfb6-4a31-a3d3-3cfc90aec421.update-conf.__default"
+    },
+    "system.runnerGroupName": {
+      "value": "Default"
+    }
+  },
+  "messageType": "PipelineAgentJobRequest",
+  "plan": {
+    "scopeIdentifier": "00000000-0000-0000-0000-000000000000",
+    "planType": "Actions",
+    "version": 41,
+    "planId": "55990d20-cfb6-4a31-a3d3-3cfc90aec421",
+    "planGroup": "Actions:00000000-0000-0000-0000-000000000000:1",
+    "artifactUri": "vstfs:///Build/Build/1",
+    "artifactLocation": null,
+    "definition": {
+      "_links": {},
+      "id": 3,
+      "name": "ubuntu-linux-github-actions"
+    },
+    "owner": {
+      "_links": {},
+      "id": 3,
+      "name": "Eprince-hub"
+    }
+  },
+  "timeline": {
+    "id": "55990d20-cfb6-4a31-a3d3-3cfc90aec421",
+    "changeId": 0,
+    "location": null
+  },
+  "jobId": "96fdfcd3-7ef5-5e82-df4d-006ab21f14e7",
+  "jobDisplayName": "update-conf",
+  "jobName": "__default",
+  "requestId": 1,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "ServerId": "0acb7283-1f94-4f79-871d-5f24614ee6c5",
+          "ServerName": "gytf4YKzCCcYiPLR93WDNA1PtelAUNYTz6CZeFjAaZR1wxBFSQ",
+          "CacheServerUrl": "https://acghubeus1.actions.githubusercontent.com/gytf4YKzCCcYiPLR93WDNA1PtelAUNYTz6CZeFjAaZR1wxBFSQ/",
+          "FeedStreamUrl": "https://results-receiver.actions.githubusercontent.com/_ws/ingest.sock",
+          "ResultsServiceUrl": "https://results-receiver.actions.githubusercontent.com/",
+          "ConnectivityChecks": "[\"https://acghubeus0.actions.githubusercontent.com/_apis/health\",\"https://results-receiver.actions.githubusercontent.com/health\",\"https://actions-results-receiver-production.githubapp.com/health\",\"https://pipelinesghubeus11.actions.githubusercontent.com/_apis/health\"]"
+        },
+        "name": "SystemVssConnection",
+        "url": "https://pipelinesghubeus11.actions.githubusercontent.com/gytf4YKzCCcYiPLR93WDNA1PtelAUNYTz6CZeFjAaZR1wxBFSQ/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": ***
+          },
+          "scheme": "OAuth"
+        },
+        "isShared": false,
+        "isReady": true
+      }
+    ]
+  },
+  "contextData": {
+    "github": {
+      "t": 2,
+      "d": [
+        {
+          "k": "ref",
+          "v": "refs/heads/main"
+        },
+        {
+          "k": "sha",
+          "v": "e75178f5a546e824452cd4264d23be32cf432243"
+        },
+        {
+          "k": "repository",
+          "v": "Eprince-hub/ubuntu-linux-github-actions"
+        },
+        {
+          "k": "repository_owner",
+          "v": "Eprince-hub"
+        },
+        {
+          "k": "repository_owner_id",
+          "v": "74430629"
+        },
+        {
+          "k": "repositoryUrl",
+          "v": "git://github.com/Eprince-hub/ubuntu-linux-github-actions.git"
+        },
+        {
+          "k": "run_id",
+          "v": "9991016311"
+        },
+        {
+          "k": "run_number",
+          "v": "1"
+        },
+        {
+          "k": "retention_days",
+          "v": "90"
+        },
+        {
+          "k": "run_attempt",
+          "v": "1"
+        },
+        {
+          "k": "artifact_cache_size_limit",
+          "v": "10"
+        },
+        {
+          "k": "repository_visibility",
+          "v": "public"
+        },
+        {
+          "k": "repo-self-hosted-runners-disabled",
+          "v": false
+        },
+        {
+          "k": "enterprise-managed-business-id",
+          "v": ""
+        },
+        {
+          "k": "repository_id",
+          "v": "830480922"
+        },
+        {
+          "k": "actor_id",
+          "v": "74430629"
+        },
+        {
+          "k": "actor",
+          "v": "Eprince-hub"
+        },
+        {
+          "k": "triggering_actor",
+          "v": "Eprince-hub"
+        },
+        {
+          "k": "workflow",
+          "v": "Update PostgreSQL Conf"
+        },
+        {
+          "k": "head_ref",
+          "v": ""
+        },
+        {
+          "k": "base_ref",
+          "v": ""
+        },
+        {
+          "k": "event_name",
+          "v": "push"
+        },
+        {
+          "k": "event",
+          "v": {
+            "t": 2,
+            "d": [
+              {
+                "k": "after",
+                "v": "e75178f5a546e824452cd4264d23be32cf432243"
+              },
+              {
+                "k": "base_ref",
+                "v": null
+              },
+              {
+                "k": "before",
+                "v": "0000000000000000000000000000000000000000"
+              },
+              {
+                "k": "commits",
+                "v": {
+                  "t": 1,
+                  "a": [
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "ejikello123@yahoo.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Victor Ejike Nwosu"
+                              },
+                              {
+                                "k": "username",
+                                "v": "Eprince-hub"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "ejikello123@yahoo.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Victor Ejike Nwosu"
+                              },
+                              {
+                                "k": "username",
+                                "v": "Eprince-hub"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "724000d8e25f19f1058cd76bd686d9d19fe719ff"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Setup action runner"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2024-07-18T13:36:48+02:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "601b5a6a6c5784b0056e9abfcbecb13be4f935af"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/Eprince-hub/ubuntu-linux-github-actions/commit/724000d8e25f19f1058cd76bd686d9d19fe719ff"
+                        }
+                      ]
+                    },
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "ejikello123@yahoo.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Victor Ejike Nwosu"
+                              },
+                              {
+                                "k": "username",
+                                "v": "Eprince-hub"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "ejikello123@yahoo.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Victor Ejike Nwosu"
+                              },
+                              {
+                                "k": "username",
+                                "v": "Eprince-hub"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "e75178f5a546e824452cd4264d23be32cf432243"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Add workflow"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2024-07-18T13:53:13+02:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "94d60754d8dd839241d6e0d20907ae655596ae63"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/Eprince-hub/ubuntu-linux-github-actions/commit/e75178f5a546e824452cd4264d23be32cf432243"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "compare",
+                "v": "https://github.com/Eprince-hub/ubuntu-linux-github-actions/compare/724000d8e25f^...e75178f5a546"
+              },
+              {
+                "k": "created",
+                "v": true
+              },
+              {
+                "k": "deleted",
+                "v": false
+              },
+              {
+                "k": "forced",
+                "v": false
+              },
+              {
+                "k": "head_commit",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "author",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "ejikello123@yahoo.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "Victor Ejike Nwosu"
+                          },
+                          {
+                            "k": "username",
+                            "v": "Eprince-hub"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "committer",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "ejikello123@yahoo.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "Victor Ejike Nwosu"
+                          },
+                          {
+                            "k": "username",
+                            "v": "Eprince-hub"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "distinct",
+                      "v": true
+                    },
+                    {
+                      "k": "id",
+                      "v": "e75178f5a546e824452cd4264d23be32cf432243"
+                    },
+                    {
+                      "k": "message",
+                      "v": "Add workflow"
+                    },
+                    {
+                      "k": "timestamp",
+                      "v": "2024-07-18T13:53:13+02:00"
+                    },
+                    {
+                      "k": "tree_id",
+                      "v": "94d60754d8dd839241d6e0d20907ae655596ae63"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/Eprince-hub/ubuntu-linux-github-actions/commit/e75178f5a546e824452cd4264d23be32cf432243"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "pusher",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "email",
+                      "v": "74430629+Eprince-hub@users.noreply.github.com"
+                    },
+                    {
+                      "k": "name",
+                      "v": "Eprince-hub"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "ref",
+                "v": "refs/heads/main"
+              },
+              {
+                "k": "repository",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "allow_forking",
+                      "v": true
+                    },
+                    {
+                      "k": "archive_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/{archive_format}{/ref}"
+                    },
+                    {
+                      "k": "archived",
+                      "v": false
+                    },
+                    {
+                      "k": "assignees_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/assignees{/user}"
+                    },
+                    {
+                      "k": "blobs_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/git/blobs{/sha}"
+                    },
+                    {
+                      "k": "branches_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/branches{/branch}"
+                    },
+                    {
+                      "k": "clone_url",
+                      "v": "https://github.com/Eprince-hub/ubuntu-linux-github-actions.git"
+                    },
+                    {
+                      "k": "collaborators_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/collaborators{/collaborator}"
+                    },
+                    {
+                      "k": "comments_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/comments{/number}"
+                    },
+                    {
+                      "k": "commits_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/commits{/sha}"
+                    },
+                    {
+                      "k": "compare_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/compare/{base}...{head}"
+                    },
+                    {
+                      "k": "contents_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/contents/{+path}"
+                    },
+                    {
+                      "k": "contributors_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/contributors"
+                    },
+                    {
+                      "k": "created_at",
+                      "v": 1721300632.0
+                    },
+                    {
+                      "k": "default_branch",
+                      "v": "main"
+                    },
+                    {
+                      "k": "deployments_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/deployments"
+                    },
+                    {
+                      "k": "description",
+                      "v": null
+                    },
+                    {
+                      "k": "disabled",
+                      "v": false
+                    },
+                    {
+                      "k": "downloads_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/downloads"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/events"
+                    },
+                    {
+                      "k": "fork",
+                      "v": false
+                    },
+                    {
+                      "k": "forks",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/forks"
+                    },
+                    {
+                      "k": "full_name",
+                      "v": "Eprince-hub/ubuntu-linux-github-actions"
+                    },
+                    {
+                      "k": "git_commits_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/git/commits{/sha}"
+                    },
+                    {
+                      "k": "git_refs_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/git/refs{/sha}"
+                    },
+                    {
+                      "k": "git_tags_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/git/tags{/sha}"
+                    },
+                    {
+                      "k": "git_url",
+                      "v": "git://github.com/Eprince-hub/ubuntu-linux-github-actions.git"
+                    },
+                    {
+                      "k": "has_discussions",
+                      "v": false
+                    },
+                    {
+                      "k": "has_downloads",
+                      "v": true
+                    },
+                    {
+                      "k": "has_issues",
+                      "v": true
+                    },
+                    {
+                      "k": "has_pages",
+                      "v": false
+                    },
+                    {
+                      "k": "has_projects",
+                      "v": true
+                    },
+                    {
+                      "k": "has_wiki",
+                      "v": true
+                    },
+                    {
+                      "k": "homepage",
+                      "v": null
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/hooks"
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/Eprince-hub/ubuntu-linux-github-actions"
+                    },
+                    {
+                      "k": "id",
+                      "v": 830480922.0
+                    },
+                    {
+                      "k": "is_template",
+                      "v": false
+                    },
+                    {
+                      "k": "issue_comment_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/issues/comments{/number}"
+                    },
+                    {
+                      "k": "issue_events_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/issues/events{/number}"
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/issues{/number}"
+                    },
+                    {
+                      "k": "keys_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/keys{/key_id}"
+                    },
+                    {
+                      "k": "labels_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/labels{/name}"
+                    },
+                    {
+                      "k": "language",
+                      "v": null
+                    },
+                    {
+                      "k": "languages_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/languages"
+                    },
+                    {
+                      "k": "license",
+                      "v": null
+                    },
+                    {
+                      "k": "master_branch",
+                      "v": "main"
+                    },
+                    {
+                      "k": "merges_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/merges"
+                    },
+                    {
+                      "k": "milestones_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/milestones{/number}"
+                    },
+                    {
+                      "k": "mirror_url",
+                      "v": null
+                    },
+                    {
+                      "k": "name",
+                      "v": "ubuntu-linux-github-actions"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "R_kgDOMYAiGg"
+                    },
+                    {
+                      "k": "notifications_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/notifications{?since,all,participating}"
+                    },
+                    {
+                      "k": "open_issues",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "open_issues_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "owner",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "avatar_url",
+                            "v": "https://avatars.githubusercontent.com/u/74430629?v=4"
+                          },
+                          {
+                            "k": "email",
+                            "v": "74430629+Eprince-hub@users.noreply.github.com"
+                          },
+                          {
+                            "k": "events_url",
+                            "v": "https://api.github.com/users/Eprince-hub/events{/privacy}"
+                          },
+                          {
+                            "k": "followers_url",
+                            "v": "https://api.github.com/users/Eprince-hub/followers"
+                          },
+                          {
+                            "k": "following_url",
+                            "v": "https://api.github.com/users/Eprince-hub/following{/other_user}"
+                          },
+                          {
+                            "k": "gists_url",
+                            "v": "https://api.github.com/users/Eprince-hub/gists{/gist_id}"
+                          },
+                          {
+                            "k": "gravatar_id",
+                            "v": ""
+                          },
+                          {
+                            "k": "html_url",
+                            "v": "https://github.com/Eprince-hub"
+                          },
+                          {
+                            "k": "id",
+                            "v": 74430629.0
+                          },
+                          {
+                            "k": "login",
+                            "v": "Eprince-hub"
+                          },
+                          {
+                            "k": "name",
+                            "v": "Eprince-hub"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "MDQ6VXNlcjc0NDMwNjI5"
+                          },
+                          {
+                            "k": "organizations_url",
+                            "v": "https://api.github.com/users/Eprince-hub/orgs"
+                          },
+                          {
+                            "k": "received_events_url",
+                            "v": "https://api.github.com/users/Eprince-hub/received_events"
+                          },
+                          {
+                            "k": "repos_url",
+                            "v": "https://api.github.com/users/Eprince-hub/repos"
+                          },
+                          {
+                            "k": "site_admin",
+                            "v": false
+                          },
+                          {
+                            "k": "starred_url",
+                            "v": "https://api.github.com/users/Eprince-hub/starred{/owner}{/repo}"
+                          },
+                          {
+                            "k": "subscriptions_url",
+                            "v": "https://api.github.com/users/Eprince-hub/subscriptions"
+                          },
+                          {
+                            "k": "type",
+                            "v": "User"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/users/Eprince-hub"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "private",
+                      "v": false
+                    },
+                    {
+                      "k": "pulls_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/pulls{/number}"
+                    },
+                    {
+                      "k": "pushed_at",
+                      "v": 1721303759.0
+                    },
+                    {
+                      "k": "releases_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/releases{/id}"
+                    },
+                    {
+                      "k": "size",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "ssh_url",
+                      "v": "git@github.com:Eprince-hub/ubuntu-linux-github-actions.git"
+                    },
+                    {
+                      "k": "stargazers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/stargazers"
+                    },
+                    {
+                      "k": "statuses_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/statuses/{sha}"
+                    },
+                    {
+                      "k": "subscribers_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/subscribers"
+                    },
+                    {
+                      "k": "subscription_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/subscription"
+                    },
+                    {
+                      "k": "svn_url",
+                      "v": "https://github.com/Eprince-hub/ubuntu-linux-github-actions"
+                    },
+                    {
+                      "k": "tags_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/tags"
+                    },
+                    {
+                      "k": "teams_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/teams"
+                    },
+                    {
+                      "k": "topics",
+                      "v": {
+                        "t": 1
+                      }
+                    },
+                    {
+                      "k": "trees_url",
+                      "v": "https://api.github.com/repos/Eprince-hub/ubuntu-linux-github-actions/git/trees{/sha}"
+                    },
+                    {
+                      "k": "updated_at",
+                      "v": "2024-07-18T11:03:52Z"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/Eprince-hub/ubuntu-linux-github-actions"
+                    },
+                    {
+                      "k": "visibility",
+                      "v": "public"
+                    },
+                    {
+                      "k": "watchers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "watchers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "web_commit_signoff_required",
+                      "v": false
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "sender",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/74430629?v=4"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/users/Eprince-hub/events{/privacy}"
+                    },
+                    {
+                      "k": "followers_url",
+                      "v": "https://api.github.com/users/Eprince-hub/followers"
+                    },
+                    {
+                      "k": "following_url",
+                      "v": "https://api.github.com/users/Eprince-hub/following{/other_user}"
+                    },
+                    {
+                      "k": "gists_url",
+                      "v": "https://api.github.com/users/Eprince-hub/gists{/gist_id}"
+                    },
+                    {
+                      "k": "gravatar_id",
+                      "v": ""
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/Eprince-hub"
+                    },
+                    {
+                      "k": "id",
+                      "v": 74430629.0
+                    },
+                    {
+                      "k": "login",
+                      "v": "Eprince-hub"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "MDQ6VXNlcjc0NDMwNjI5"
+                    },
+                    {
+                      "k": "organizations_url",
+                      "v": "https://api.github.com/users/Eprince-hub/orgs"
+                    },
+                    {
+                      "k": "received_events_url",
+                      "v": "https://api.github.com/users/Eprince-hub/received_events"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/users/Eprince-hub/repos"
+                    },
+                    {
+                      "k": "site_admin",
+                      "v": false
+                    },
+                    {
+                      "k": "starred_url",
+                      "v": "https://api.github.com/users/Eprince-hub/starred{/owner}{/repo}"
+                    },
+                    {
+                      "k": "subscriptions_url",
+                      "v": "https://api.github.com/users/Eprince-hub/subscriptions"
+                    },
+                    {
+                      "k": "type",
+                      "v": "User"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/users/Eprince-hub"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "k": "server_url",
+          "v": "https://github.com"
+        },
+        {
+          "k": "api_url",
+          "v": "https://api.github.com"
+        },
+        {
+          "k": "graphql_url",
+          "v": "https://api.github.com/graphql"
+        },
+        {
+          "k": "ref_name",
+          "v": "main"
+        },
+        {
+          "k": "ref_protected",
+          "v": false
+        },
+        {
+          "k": "ref_type",
+          "v": "branch"
+        },
+        {
+          "k": "secret_source",
+          "v": "Actions"
+        },
+        {
+          "k": "workflow_ref",
+          "v": "Eprince-hub/ubuntu-linux-github-actions/.github/workflows/update-postgresql-conf.yml@refs/heads/main"
+        },
+        {
+          "k": "workflow_sha",
+          "v": "e75178f5a546e824452cd4264d23be32cf432243"
+        }
+      ]
+    },
+    "run-feature-flags": {
+      "t": 2,
+      "d": [
+        {
+          "k": "actions_stream_logs_via_results_service",
+          "v": true
+        },
+        {
+          "k": "actions_use_results_service",
+          "v": true
+        },
+        {
+          "k": "larger_runners_custom_image_generation",
+          "v": false
+        }
+      ]
+    },
+    "partialrerun": false,
+    "needs": {
+      "t": 2
+    },
+    "vars": null,
+    "inputs": {
+      "t": 2
+    },
+    "matrix": null,
+    "strategy": {
+      "t": 2,
+      "d": [
+        {
+          "k": "fail-fast",
+          "v": true
+        },
+        {
+          "k": "job-index",
+          "v": 0.0
+        },
+        {
+          "k": "job-total",
+          "v": 1.0
+        },
+        {
+          "k": "max-parallel",
+          "v": 1.0
+        }
+      ]
+    },
+    "EndpointsOverride": null
+  }
+}
+[2024-07-18 11:56:07Z INFO JobRunner] Job ID 96fdfcd3-7ef5-5e82-df4d-006ab21f14e7
+[2024-07-18 11:56:07Z INFO ConfigurationStore] currentAssemblyLocation: /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin/Runner.Worker.dll
+[2024-07-18 11:56:07Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:07Z INFO ConfigurationStore] binPath: /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin
+[2024-07-18 11:56:07Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:07Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:07Z INFO ConfigurationStore] RootFolder: /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner
+[2024-07-18 11:56:07Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:07Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:07Z INFO HostContext] Well known config file 'Runner': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.runner'
+[2024-07-18 11:56:07Z INFO ConfigurationStore] ConfigFilePath: /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.runner
+[2024-07-18 11:56:07Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:07Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:07Z INFO HostContext] Well known config file 'Credentials': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials'
+[2024-07-18 11:56:07Z INFO ConfigurationStore] CredFilePath: /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials
+[2024-07-18 11:56:07Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:07Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:07Z INFO HostContext] Well known config file 'MigratedCredentials': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials_migrated'
+[2024-07-18 11:56:07Z INFO ConfigurationStore] MigratedCredFilePath: /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials_migrated
+[2024-07-18 11:56:07Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:07Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:07Z INFO HostContext] Well known config file 'Service': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.service'
+[2024-07-18 11:56:07Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.service
+[2024-07-18 11:56:07Z INFO ConfigurationStore] Read setting file: 317 chars
+[2024-07-18 11:56:07Z INFO JobRunner] Creating job server with URL: https://pipelinesghubeus11.actions.githubusercontent.com/gytf4YKzCCcYiPLR93WDNA1PtelAUNYTz6CZeFjAaZR1wxBFSQ/
+[2024-07-18 11:56:07Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-07-18 11:56:07Z INFO Worker] Listening for cancel message from the channel.
+[2024-07-18 11:56:07Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2024-07-18 11:56:08Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-07-18 11:56:08Z INFO JobServer] Creating websocket client ...wss://results-receiver.actions.githubusercontent.com/_ws/ingest.sock
+[2024-07-18 11:56:08Z INFO JobServer] Attempting to start websocket client with delay 00:00:00.
+[2024-07-18 11:56:08Z INFO JobServerQueue] Initializing results client
+[2024-07-18 11:56:08Z INFO JobServerQueue] Start process web console line queue.
+[2024-07-18 11:56:08Z INFO JobServerQueue] Start process file upload queue.
+[2024-07-18 11:56:08Z INFO JobServerQueue] Start results file upload queue.
+[2024-07-18 11:56:08Z INFO JobServerQueue] Starting results-based upload queue...
+[2024-07-18 11:56:08Z INFO JobServerQueue] Start process timeline update queue.
+[2024-07-18 11:56:08Z INFO ExecutionContext] Initialize GitHub context
+[2024-07-18 11:56:08Z INFO ExecutionContext] Initialize Env context
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Diag': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_diag'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Diag': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_diag'
+[2024-07-18 11:56:08Z INFO JobRunner] Starting the job execution context.
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:08Z INFO JobRunner] Validating directory permissions for: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Tools': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_tool'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Temp': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_temp'
+[2024-07-18 11:56:08Z INFO JobRunner] Getting job extension.
+[2024-07-18 11:56:08Z INFO JobRunner] Initialize job. Getting all job steps.
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Diag': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_diag'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Diag': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_diag'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:08Z INFO HostContext] Well known config file 'Credentials': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:08Z INFO HostContext] Well known config file 'SetupInfo': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.setup_info'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:08Z INFO PipelineDirectoryManager] Loading tracking config if exists: /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_PipelineMapping/Eprince-hub/ubuntu-linux-github-actions/PipelineFolder.json
+[2024-07-18 11:56:08Z INFO PipelineDirectoryManager] Creating a new tracking config file.
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:08Z INFO PipelineDirectoryManager] Creating pipeline directory.
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:08Z INFO PipelineDirectoryManager] Creating workspace directory.
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:08Z INFO JobExtension] Downloading actions
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Actions': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_actions'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Actions': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_actions'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:08Z INFO HostContext] Well known directory 'Actions': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_actions'
+[2024-07-18 11:56:09Z INFO ActionManager] Save archive 'https://api.github.com/repos/actions/checkout/tarball/ee0669bd1cc54295c223e0bb666b733df41de1c5' into /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_actions/_temp_706c3b9a-1eb4-4ddc-ada4-10fa3998d22f/c2fbf056-3a67-439d-84b3-0097b9e5f3c4.tar.gz.
+[2024-07-18 11:56:09Z INFO JobServer] Successfully started websocket client.
+[2024-07-18 11:56:09Z INFO JobServerQueue] Try to append 1 batches web console lines for record '10051afd-c6fc-483f-a44a-117ec096325b', success rate: 1/1.
+[2024-07-18 11:56:09Z INFO JobServerQueue] Try to append 1 batches web console lines for record '10051afd-c6fc-483f-a44a-117ec096325b', success rate: 1/1.
+[2024-07-18 11:56:10Z INFO ActionManager] Request URL: https://api.github.com/repos/actions/checkout/tarball/ee0669bd1cc54295c223e0bb666b733df41de1c5 X-GitHub-Request-Id: 276A:264389:7672B9:8D6570:669902D9 Http Status: OK
+[2024-07-18 11:56:10Z INFO ActionManager] Which2: 'tar'
+[2024-07-18 11:56:10Z INFO ActionManager] Location: '/usr/bin/tar'
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper] Starting process:
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/tar'
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper]   Arguments: '-xzf "/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_actions/_temp_706c3b9a-1eb4-4ddc-ada4-10fa3998d22f/c2fbf056-3a67-439d-84b3-0097b9e5f3c4.tar.gz"'
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper]   Working directory: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_actions/_temp_706c3b9a-1eb4-4ddc-ada4-10fa3998d22f/_staging'
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper] Process started with process id 16585, waiting for process exit.
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper] Finished process 16585 with exit code 0, and elapsed time 00:00:00.0775514.
+[2024-07-18 11:56:10Z INFO ActionManager] Finished getting action repository.
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Actions': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_actions'
+[2024-07-18 11:56:10Z INFO ActionManifestManager] Load schema file with definitions: [
+  "null",
+  "boolean",
+  "number",
+  "string",
+  "sequence",
+  "mapping",
+  "any",
+  "action-root",
+  "inputs",
+  "input",
+  "outputs",
+  "output-definition",
+  "runs",
+  "container-runs",
+  "container-runs-args",
+  "container-runs-env",
+  "node-runs",
+  "plugin-runs",
+  "composite-runs",
+  "composite-steps",
+  "composite-step",
+  "run-step",
+  "uses-step",
+  "container-runs-context",
+  "output-value",
+  "input-default-context",
+  "non-empty-string",
+  "string-steps-context",
+  "boolean-steps-context",
+  "step-env",
+  "step-if",
+  "step-with"
+]
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Actions': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_actions'
+[2024-07-18 11:56:10Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node12",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2024-07-18 11:56:10Z INFO ActionManager] Action node.js file: dist/index.js, no more preparation.
+[2024-07-18 11:56:10Z INFO JobServerQueue] Job timeline record has been updated for the first time.
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Actions': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_actions'
+[2024-07-18 11:56:10Z INFO ActionManager] Load action that reference repository from '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_actions/actions/checkout/v2'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Actions': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_actions'
+[2024-07-18 11:56:10Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node12",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2024-07-18 11:56:10Z INFO ActionManager] Action pre node.js file: N/A.
+[2024-07-18 11:56:10Z INFO ActionManager] Action node.js file: dist/index.js.
+[2024-07-18 11:56:10Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2024-07-18 11:56:10Z INFO JobExtension] Adding .
+[2024-07-18 11:56:10Z INFO JobExtension] Adding .
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Diag': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_diag'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Diag': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_diag'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Diag': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_diag'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Diag': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_diag'
+[2024-07-18 11:56:10Z INFO JobExtension] Total accessible running process: 314.
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:10Z INFO JobExtension] Start checking server connectivity.
+[2024-07-18 11:56:10Z INFO JobExtension] Check server connectivity for https://acghubeus0.actions.githubusercontent.com/_apis/health.
+[2024-07-18 11:56:10Z INFO JobExtension] Check server connectivity for https://results-receiver.actions.githubusercontent.com/health.
+[2024-07-18 11:56:10Z INFO JobExtension] Check server connectivity for https://actions-results-receiver-production.githubapp.com/health.
+[2024-07-18 11:56:10Z INFO JobExtension] Check server connectivity for https://pipelinesghubeus11.actions.githubusercontent.com/_apis/health.
+[2024-07-18 11:56:10Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "setup_job",
+  "type": "runner",
+  "stage": "Pre",
+  "stepId": "10051afd-c6fc-483f-a44a-117ec096325b",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 2,
+  "startTime": "2024-07-18T11:56:08.666362Z",
+  "finishTime": "2024-07-18T11:56:10.566995Z"
+}.
+[2024-07-18 11:56:10Z INFO JobServerQueue] Try to append 1 batches web console lines for record '10051afd-c6fc-483f-a44a-117ec096325b', success rate: 1/1.
+[2024-07-18 11:56:10Z INFO JobRunner] Total job steps: 2.
+[2024-07-18 11:56:10Z INFO JobRunner] Run all job steps.
+[2024-07-18 11:56:10Z INFO StepsRunner] Processing step: DisplayName='Checkout repository'
+[2024-07-18 11:56:10Z INFO StepsRunner] Evaluating: success()
+[2024-07-18 11:56:10Z INFO StepsRunner] Result: true
+[2024-07-18 11:56:10Z INFO StepsRunner] Starting the step.
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Actions': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_actions'
+[2024-07-18 11:56:10Z INFO ActionManager] Load action that reference repository from '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_actions/actions/checkout/v2'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Actions': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_actions'
+[2024-07-18 11:56:10Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node12",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2024-07-18 11:56:10Z INFO ActionManager] Action pre node.js file: N/A.
+[2024-07-18 11:56:10Z INFO ActionManager] Action node.js file: dist/index.js.
+[2024-07-18 11:56:10Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2024-07-18 11:56:10Z INFO ExecutionContext] Reserve record order 4 to 6 for post job actions.
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Diag': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_diag'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Diag': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_diag'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Temp': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_temp'
+[2024-07-18 11:56:10Z INFO ExecutionContext] Write event payload to /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_temp/_github_workflow/event.json
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Temp': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_temp'
+[2024-07-18 11:56:10Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2024-07-18 11:56:10Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathFileCommand, Runner.Worker
+[2024-07-18 11:56:10Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvFileCommand, Runner.Worker
+[2024-07-18 11:56:10Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.CreateStepSummaryCommand, Runner.Worker
+[2024-07-18 11:56:10Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateFileCommand, Runner.Worker
+[2024-07-18 11:56:10Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputFileCommand, Runner.Worker
+[2024-07-18 11:56:10Z INFO ActionManifestManager] Input 'repository': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 6,
+  "col": 14,
+  "lit": "Eprince-hub/ubuntu-linux-github-actions"
+}
+[2024-07-18 11:56:10Z INFO ActionManifestManager] Input 'ref': default value evaluate result: ""
+[2024-07-18 11:56:10Z INFO ActionManifestManager] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2024-07-18 11:56:10Z INFO ActionManifestManager] Input 'ssh-key': default value evaluate result: ""
+[2024-07-18 11:56:10Z INFO ActionManifestManager] Input 'ssh-known-hosts': default value evaluate result: ""
+[2024-07-18 11:56:10Z INFO ActionManifestManager] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2024-07-18 11:56:10Z INFO ActionManifestManager] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 50,
+  "col": 14,
+  "lit": "true"
+}
+[2024-07-18 11:56:10Z INFO ActionManifestManager] Input 'path': default value evaluate result: ""
+[2024-07-18 11:56:10Z INFO ActionManifestManager] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 55,
+  "col": 14,
+  "lit": "true"
+}
+[2024-07-18 11:56:10Z INFO ActionManifestManager] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 58,
+  "col": 14,
+  "lit": "1"
+}
+[2024-07-18 11:56:10Z INFO ActionManifestManager] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 61,
+  "col": 14,
+  "lit": "false"
+}
+[2024-07-18 11:56:10Z INFO ActionManifestManager] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 70,
+  "col": 14,
+  "lit": "false"
+}
+[2024-07-18 11:56:10Z INFO ActionManifestManager] Input 'set-safe-directory': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 73,
+  "col": 14,
+  "lit": "true"
+}
+[2024-07-18 11:56:10Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2024-07-18 11:56:10Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.InternalPluginSetRepoPathCommandExtension, Runner.Worker
+[2024-07-18 11:56:10Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvCommandExtension, Runner.Worker
+[2024-07-18 11:56:10Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputCommandExtension, Runner.Worker
+[2024-07-18 11:56:10Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateCommandExtension, Runner.Worker
+[2024-07-18 11:56:10Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathCommandExtension, Runner.Worker
+[2024-07-18 11:56:10Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMaskCommandExtension, Runner.Worker
+[2024-07-18 11:56:10Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMatcherCommandExtension, Runner.Worker
+[2024-07-18 11:56:10Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.RemoveMatcherCommandExtension, Runner.Worker
+[2024-07-18 11:56:10Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.WarningCommandExtension, Runner.Worker
+[2024-07-18 11:56:10Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.ErrorCommandExtension, Runner.Worker
+[2024-07-18 11:56:10Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.NoticeCommandExtension, Runner.Worker
+[2024-07-18 11:56:10Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.DebugCommandExtension, Runner.Worker
+[2024-07-18 11:56:10Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.GroupCommandExtension, Runner.Worker
+[2024-07-18 11:56:10Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EndGroupCommandExtension, Runner.Worker
+[2024-07-18 11:56:10Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EchoCommandExtension, Runner.Worker
+[2024-07-18 11:56:10Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2024-07-18 11:56:10Z INFO ActionCommandManager] Register action command extension for command set-env
+[2024-07-18 11:56:10Z INFO ActionCommandManager] Register action command extension for command set-output
+[2024-07-18 11:56:10Z INFO ActionCommandManager] Register action command extension for command save-state
+[2024-07-18 11:56:10Z INFO ActionCommandManager] Register action command extension for command add-path
+[2024-07-18 11:56:10Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2024-07-18 11:56:10Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2024-07-18 11:56:10Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2024-07-18 11:56:10Z INFO ActionCommandManager] Register action command extension for command warning
+[2024-07-18 11:56:10Z INFO ActionCommandManager] Register action command extension for command error
+[2024-07-18 11:56:10Z INFO ActionCommandManager] Register action command extension for command notice
+[2024-07-18 11:56:10Z INFO ActionCommandManager] Register action command extension for command debug
+[2024-07-18 11:56:10Z INFO ActionCommandManager] Register action command extension for command group
+[2024-07-18 11:56:10Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2024-07-18 11:56:10Z INFO ActionCommandManager] Register action command extension for command echo
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:10Z INFO HostContext] Well known directory 'Externals': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/externals'
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper] Starting process:
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper]   File name: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/externals/node20/bin/node'
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper]   Arguments: '"/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_actions/actions/checkout/v2/dist/index.js"'
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper]   Working directory: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/ubuntu-linux-github-actions/ubuntu-linux-github-actions'
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-07-18 11:56:10Z INFO JobServerQueue] Got a step log file to send to results service.
+[2024-07-18 11:56:10Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_diag/blocks/55990d20-cfb6-4a31-a3d3-3cfc90aec421_10051afd-c6fc-483f-a44a-117ec096325b.1
+[2024-07-18 11:56:10Z INFO ProcessInvokerWrapper] Process started with process id 16602, waiting for process exit.
+[2024-07-18 11:56:10Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:11Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2024-07-18 11:56:11Z INFO JobServerQueue] Tried to upload 1 file(s) to results, success rate: 1/1.
+[2024-07-18 11:56:12Z INFO AddMaskCommandExtension] Add new secret mask with length of 76
+[2024-07-18 11:56:12Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:12Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:12Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:13Z INFO JobServerQueue] Try to append 3 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 3/3.
+[2024-07-18 11:56:14Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:15Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:16Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:17Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:18Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:19Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:20Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:20Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:20Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:20Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:21Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:22Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:23Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:23Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:24Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:24Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:25Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:26Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:26Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:27Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:28Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:29Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:30Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:30Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:30Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:30Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:30Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:30Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:31Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:32Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:32Z INFO JobServerQueue] Try to append 2 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 2/2.
+[2024-07-18 11:56:33Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:34Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:34Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:35Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Finished process 16602 with exit code 0, and elapsed time 00:00:24.6146981.
+[2024-07-18 11:56:35Z INFO CreateStepSummaryCommand] Step Summary file (/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_temp/_runner_file_commands/step_summary_d1532172-b598-40d3-8270-5f094032b643) is empty; skipping attachment upload
+[2024-07-18 11:56:35Z INFO StepsRunner] Step result: 
+[2024-07-18 11:56:35Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "actions/checkout",
+  "ref": "v2",
+  "type": "node20",
+  "stage": "Main",
+  "stepId": "c5d51b75-1f02-5443-c606-54aa220ce36b",
+  "stepContextName": "__actions_checkout",
+  "hasPreStep": false,
+  "hasPostStep": true,
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 25,
+  "startTime": "2024-07-18T11:56:10.578055Z",
+  "finishTime": "2024-07-18T11:56:35.235893Z"
+}.
+[2024-07-18 11:56:35Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2024-07-18 11:56:35Z INFO StepsRunner] Current state: job state = ''
+[2024-07-18 11:56:35Z INFO StepsRunner] Processing step: DisplayName='Update PostgreSQL Conf'
+[2024-07-18 11:56:35Z INFO StepsRunner] Evaluating: success()
+[2024-07-18 11:56:35Z INFO StepsRunner] Result: true
+[2024-07-18 11:56:35Z INFO StepsRunner] Starting the step.
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Temp': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_temp'
+[2024-07-18 11:56:35Z INFO ExecutionContext] Write event payload to /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_temp/_github_workflow/event.json
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Temp': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_temp'
+[2024-07-18 11:56:35Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2024-07-18 11:56:35Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command set-env
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command set-output
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command save-state
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command add-path
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command warning
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command error
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command notice
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command debug
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command group
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command echo
+[2024-07-18 11:56:35Z INFO ScriptHandler] Which2: 'bash'
+[2024-07-18 11:56:35Z INFO ScriptHandler] Location: '/bin/bash'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Temp': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_temp'
+[2024-07-18 11:56:35Z INFO ScriptHandler] Which2: 'bash'
+[2024-07-18 11:56:35Z INFO ScriptHandler] Location: '/bin/bash'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Starting process:
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   File name: '/bin/bash'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Arguments: '-e /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_temp/a1032de1-2d83-4ba6-92c4-4d013074df9f.sh'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Working directory: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/ubuntu-linux-github-actions/ubuntu-linux-github-actions'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Process started with process id 17037, waiting for process exit.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Finished process 17037 with exit code 0, and elapsed time 00:00:00.0473613.
+[2024-07-18 11:56:35Z INFO CreateStepSummaryCommand] Step Summary file (/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_temp/_runner_file_commands/step_summary_69fa816f-ce0b-4ebd-9d0a-23b86246d232) is empty; skipping attachment upload
+[2024-07-18 11:56:35Z INFO StepsRunner] Step result: 
+[2024-07-18 11:56:35Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "sh",
+  "type": "run",
+  "stage": "Main",
+  "stepId": "e9ef45bf-5dc9-5291-ef92-11cf68cbcb22",
+  "stepContextName": "__run",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2024-07-18T11:56:35.236728Z",
+  "finishTime": "2024-07-18T11:56:35.304791Z"
+}.
+[2024-07-18 11:56:35Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2024-07-18 11:56:35Z INFO StepsRunner] Current state: job state = ''
+[2024-07-18 11:56:35Z INFO StepsRunner] Processing step: DisplayName='Post Checkout repository'
+[2024-07-18 11:56:35Z INFO StepsRunner] Evaluating: always()
+[2024-07-18 11:56:35Z INFO StepsRunner] Result: true
+[2024-07-18 11:56:35Z INFO StepsRunner] Starting the step.
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Actions': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_actions'
+[2024-07-18 11:56:35Z INFO ActionManager] Load action that reference repository from '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_actions/actions/checkout/v2'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Actions': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_actions'
+[2024-07-18 11:56:35Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node12",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2024-07-18 11:56:35Z INFO ActionManager] Action pre node.js file: N/A.
+[2024-07-18 11:56:35Z INFO ActionManager] Action node.js file: dist/index.js.
+[2024-07-18 11:56:35Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Temp': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_temp'
+[2024-07-18 11:56:35Z INFO ExecutionContext] Write event payload to /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_temp/_github_workflow/event.json
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Work': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Temp': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_temp'
+[2024-07-18 11:56:35Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2024-07-18 11:56:35Z INFO ActionManifestManager] Input 'repository': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 6,
+  "col": 14,
+  "lit": "Eprince-hub/ubuntu-linux-github-actions"
+}
+[2024-07-18 11:56:35Z INFO ActionManifestManager] Input 'ref': default value evaluate result: ""
+[2024-07-18 11:56:35Z INFO ActionManifestManager] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2024-07-18 11:56:35Z INFO ActionManifestManager] Input 'ssh-key': default value evaluate result: ""
+[2024-07-18 11:56:35Z INFO ActionManifestManager] Input 'ssh-known-hosts': default value evaluate result: ""
+[2024-07-18 11:56:35Z INFO ActionManifestManager] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2024-07-18 11:56:35Z INFO ActionManifestManager] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 50,
+  "col": 14,
+  "lit": "true"
+}
+[2024-07-18 11:56:35Z INFO ActionManifestManager] Input 'path': default value evaluate result: ""
+[2024-07-18 11:56:35Z INFO ActionManifestManager] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 55,
+  "col": 14,
+  "lit": "true"
+}
+[2024-07-18 11:56:35Z INFO ActionManifestManager] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 58,
+  "col": 14,
+  "lit": "1"
+}
+[2024-07-18 11:56:35Z INFO ActionManifestManager] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 61,
+  "col": 14,
+  "lit": "false"
+}
+[2024-07-18 11:56:35Z INFO ActionManifestManager] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 70,
+  "col": 14,
+  "lit": "false"
+}
+[2024-07-18 11:56:35Z INFO ActionManifestManager] Input 'set-safe-directory': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 73,
+  "col": 14,
+  "lit": "true"
+}
+[2024-07-18 11:56:35Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command set-env
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command set-output
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command save-state
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command add-path
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command warning
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command error
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command notice
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command debug
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command group
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2024-07-18 11:56:35Z INFO ActionCommandManager] Register action command extension for command echo
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Externals': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/externals'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Starting process:
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   File name: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/externals/node20/bin/node'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Arguments: '"/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_actions/actions/checkout/v2/dist/index.js"'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Working directory: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/ubuntu-linux-github-actions/ubuntu-linux-github-actions'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Process started with process id 17038, waiting for process exit.
+[2024-07-18 11:56:35Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c5d51b75-1f02-5443-c606-54aa220ce36b', success rate: 1/1.
+[2024-07-18 11:56:35Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'e9ef45bf-5dc9-5291-ef92-11cf68cbcb22', success rate: 1/1.
+[2024-07-18 11:56:35Z INFO JobServerQueue] Try to append 1 batches web console lines for record '9ea9778a-9128-4e4f-8624-a9e69feaa313', success rate: 1/1.
+[2024-07-18 11:56:35Z INFO AddMaskCommandExtension] Add new secret mask with length of 32
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Finished process 17038 with exit code 0, and elapsed time 00:00:00.2542250.
+[2024-07-18 11:56:35Z INFO CreateStepSummaryCommand] Step Summary file (/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_temp/_runner_file_commands/step_summary_eb8c326f-128f-4eef-9528-c90a7b812c22) is empty; skipping attachment upload
+[2024-07-18 11:56:35Z INFO StepsRunner] Step result: 
+[2024-07-18 11:56:35Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "actions/checkout",
+  "ref": "v2",
+  "type": "node20",
+  "stage": "Post",
+  "stepId": "9ea9778a-9128-4e4f-8624-a9e69feaa313",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2024-07-18T11:56:35.305344Z",
+  "finishTime": "2024-07-18T11:56:35.566687Z"
+}.
+[2024-07-18 11:56:35Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2024-07-18 11:56:35Z INFO StepsRunner] Current state: job state = ''
+[2024-07-18 11:56:35Z INFO JobRunner] Finalize job.
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Diag': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_diag'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Diag': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_diag'
+[2024-07-18 11:56:35Z INFO JobExtension] Initialize Env context
+[2024-07-18 11:56:35Z INFO JobExtension] Initialize steps context
+[2024-07-18 11:56:35Z INFO JobExtension] Total accessible running process: 315.
+[2024-07-18 11:56:35Z INFO JobExtension] Inspecting process environment variables. PID: 17024 (mdworker_shared)
+[2024-07-18 11:56:35Z INFO LinuxProcessExtensions] Read env from output of `ps e -p 17024 -o command`
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Starting process:
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 17024 -o command'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Working directory: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Process started with process id 17125, waiting for process exit.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Finished process 17125 with exit code 0, and elapsed time 00:00:00.0443893.
+[2024-07-18 11:56:35Z INFO LinuxProcessExtensions] Successfully dump environment variables for 17024
+[2024-07-18 11:56:35Z INFO JobExtension] Inspecting process environment variables. PID: 17023 (mdworker_shared)
+[2024-07-18 11:56:35Z INFO LinuxProcessExtensions] Read env from output of `ps e -p 17023 -o command`
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Starting process:
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 17023 -o command'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Working directory: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-07-18 11:56:35Z INFO JobServerQueue] Try to append 1 batches web console lines for record '9ea9778a-9128-4e4f-8624-a9e69feaa313', success rate: 1/1.
+[2024-07-18 11:56:35Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5823782b-7c99-4f33-b5ef-adc9f4dcee9a', success rate: 1/1.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Process started with process id 17126, waiting for process exit.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Finished process 17126 with exit code 0, and elapsed time 00:00:00.0441270.
+[2024-07-18 11:56:35Z INFO LinuxProcessExtensions] Successfully dump environment variables for 17023
+[2024-07-18 11:56:35Z INFO JobExtension] Inspecting process environment variables. PID: 17021 (mdworker_shared)
+[2024-07-18 11:56:35Z INFO LinuxProcessExtensions] Read env from output of `ps e -p 17021 -o command`
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Starting process:
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 17021 -o command'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Working directory: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Process started with process id 17127, waiting for process exit.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Finished process 17127 with exit code 0, and elapsed time 00:00:00.0431732.
+[2024-07-18 11:56:35Z INFO LinuxProcessExtensions] Successfully dump environment variables for 17021
+[2024-07-18 11:56:35Z INFO JobExtension] Inspecting process environment variables. PID: 17022 (mdworker_shared)
+[2024-07-18 11:56:35Z INFO LinuxProcessExtensions] Read env from output of `ps e -p 17022 -o command`
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Starting process:
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 17022 -o command'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Working directory: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Process started with process id 17128, waiting for process exit.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Finished process 17128 with exit code 0, and elapsed time 00:00:00.0528562.
+[2024-07-18 11:56:35Z INFO LinuxProcessExtensions] Successfully dump environment variables for 17022
+[2024-07-18 11:56:35Z INFO JobExtension] Inspecting process environment variables. PID: 17020 (mdworker_shared)
+[2024-07-18 11:56:35Z INFO LinuxProcessExtensions] Read env from output of `ps e -p 17020 -o command`
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Starting process:
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 17020 -o command'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Working directory: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Process started with process id 17153, waiting for process exit.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Finished process 17153 with exit code 0, and elapsed time 00:00:00.0560462.
+[2024-07-18 11:56:35Z INFO LinuxProcessExtensions] Successfully dump environment variables for 17020
+[2024-07-18 11:56:35Z INFO JobExtension] Inspecting process environment variables. PID: 17019 (mdworker_shared)
+[2024-07-18 11:56:35Z INFO LinuxProcessExtensions] Read env from output of `ps e -p 17019 -o command`
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Starting process:
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 17019 -o command'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Working directory: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Process started with process id 17160, waiting for process exit.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Finished process 17160 with exit code 0, and elapsed time 00:00:00.0431894.
+[2024-07-18 11:56:35Z INFO LinuxProcessExtensions] Successfully dump environment variables for 17019
+[2024-07-18 11:56:35Z INFO JobExtension] Inspecting process environment variables. PID: 17018 (mdworker_shared)
+[2024-07-18 11:56:35Z INFO LinuxProcessExtensions] Read env from output of `ps e -p 17018 -o command`
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Starting process:
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 17018 -o command'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Working directory: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-07-18 11:56:35Z INFO JobServerQueue] Got a step log file to send to results service.
+[2024-07-18 11:56:35Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_diag/blocks/55990d20-cfb6-4a31-a3d3-3cfc90aec421_c5d51b75-1f02-5443-c606-54aa220ce36b.1
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Process started with process id 17161, waiting for process exit.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Finished process 17161 with exit code 0, and elapsed time 00:00:00.0435447.
+[2024-07-18 11:56:35Z INFO LinuxProcessExtensions] Successfully dump environment variables for 17018
+[2024-07-18 11:56:35Z INFO JobExtension] Inspecting process environment variables. PID: 17016 (mdworker_shared)
+[2024-07-18 11:56:35Z INFO LinuxProcessExtensions] Read env from output of `ps e -p 17016 -o command`
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Starting process:
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 17016 -o command'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Working directory: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Process started with process id 17162, waiting for process exit.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Finished process 17162 with exit code 0, and elapsed time 00:00:00.0455537.
+[2024-07-18 11:56:35Z INFO LinuxProcessExtensions] Successfully dump environment variables for 17016
+[2024-07-18 11:56:35Z INFO JobExtension] Inspecting process environment variables. PID: 17014 (mdworker_shared)
+[2024-07-18 11:56:35Z INFO LinuxProcessExtensions] Read env from output of `ps e -p 17014 -o command`
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:35Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper] Starting process:
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 17014 -o command'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Working directory: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-07-18 11:56:35Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] Process started with process id 17163, waiting for process exit.
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] Finished process 17163 with exit code 0, and elapsed time 00:00:00.0444445.
+[2024-07-18 11:56:36Z INFO LinuxProcessExtensions] Successfully dump environment variables for 17014
+[2024-07-18 11:56:36Z INFO JobExtension] Inspecting process environment variables. PID: 17013 (mdworker_shared)
+[2024-07-18 11:56:36Z INFO LinuxProcessExtensions] Read env from output of `ps e -p 17013 -o command`
+[2024-07-18 11:56:36Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:36Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] Starting process:
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 17013 -o command'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Working directory: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] Process started with process id 17164, waiting for process exit.
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] Finished process 17164 with exit code 0, and elapsed time 00:00:00.0434542.
+[2024-07-18 11:56:36Z INFO LinuxProcessExtensions] Successfully dump environment variables for 17013
+[2024-07-18 11:56:36Z INFO JobExtension] Inspecting process environment variables. PID: 17012 (mdworker_shared)
+[2024-07-18 11:56:36Z INFO LinuxProcessExtensions] Read env from output of `ps e -p 17012 -o command`
+[2024-07-18 11:56:36Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:36Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] Starting process:
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 17012 -o command'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Working directory: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] Process started with process id 17165, waiting for process exit.
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] Finished process 17165 with exit code 0, and elapsed time 00:00:00.0434380.
+[2024-07-18 11:56:36Z INFO LinuxProcessExtensions] Successfully dump environment variables for 17012
+[2024-07-18 11:56:36Z INFO JobExtension] Inspecting process environment variables. PID: 17011 (mdworker_shared)
+[2024-07-18 11:56:36Z INFO LinuxProcessExtensions] Read env from output of `ps e -p 17011 -o command`
+[2024-07-18 11:56:36Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:36Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] Starting process:
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 17011 -o command'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Working directory: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] Process started with process id 17166, waiting for process exit.
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] Finished process 17166 with exit code 0, and elapsed time 00:00:00.0440554.
+[2024-07-18 11:56:36Z INFO LinuxProcessExtensions] Successfully dump environment variables for 17011
+[2024-07-18 11:56:36Z INFO JobExtension] Inspecting process environment variables. PID: 16779 (Google Chrome H)
+[2024-07-18 11:56:36Z INFO LinuxProcessExtensions] Read env from output of `ps e -p 16779 -o command`
+[2024-07-18 11:56:36Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:36Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] Starting process:
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 16779 -o command'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Working directory: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] Process started with process id 17167, waiting for process exit.
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] Finished process 17167 with exit code 0, and elapsed time 00:00:00.0440281.
+[2024-07-18 11:56:36Z INFO LinuxProcessExtensions] Successfully dump environment variables for 16779
+[2024-07-18 11:56:36Z INFO JobExtension] Inspecting process environment variables. PID: 16607 (Google Chrome H)
+[2024-07-18 11:56:36Z INFO LinuxProcessExtensions] Read env from output of `ps e -p 16607 -o command`
+[2024-07-18 11:56:36Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:36Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] Starting process:
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 16607 -o command'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Working directory: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] Process started with process id 17168, waiting for process exit.
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] Finished process 17168 with exit code 0, and elapsed time 00:00:00.0433725.
+[2024-07-18 11:56:36Z INFO LinuxProcessExtensions] Successfully dump environment variables for 16607
+[2024-07-18 11:56:36Z INFO JobExtension] Inspecting process environment variables. PID: 16606 (Google Chrome H)
+[2024-07-18 11:56:36Z INFO LinuxProcessExtensions] Read env from output of `ps e -p 16606 -o command`
+[2024-07-18 11:56:36Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:36Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] Starting process:
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 16606 -o command'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Working directory: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] Process started with process id 17169, waiting for process exit.
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] Finished process 17169 with exit code 0, and elapsed time 00:00:00.0445150.
+[2024-07-18 11:56:36Z INFO LinuxProcessExtensions] Successfully dump environment variables for 16606
+[2024-07-18 11:56:36Z INFO JobExtension] Inspecting process environment variables. PID: 16598 (mdworker_shared)
+[2024-07-18 11:56:36Z INFO LinuxProcessExtensions] Read env from output of `ps e -p 16598 -o command`
+[2024-07-18 11:56:36Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:36Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] Starting process:
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   File name: 'ps'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Arguments: 'e -p 16598 -o command'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Working directory: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] Process started with process id 17170, waiting for process exit.
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:36Z INFO ProcessInvokerWrapper] Finished process 17170 with exit code 0, and elapsed time 00:00:00.0438222.
+[2024-07-18 11:56:36Z INFO LinuxProcessExtensions] Successfully dump environment variables for 16598
+[2024-07-18 11:56:36Z INFO JobExtension] Wait for all connectivity checks to finish.
+[2024-07-18 11:56:36Z INFO JobExtension] Connectivity check result: https://acghubeus0.actions.githubusercontent.com/_apis/health: OK
+[2024-07-18 11:56:36Z INFO JobExtension] Connectivity check result: https://results-receiver.actions.githubusercontent.com/health: OK
+[2024-07-18 11:56:36Z INFO JobExtension] Connectivity check result: https://actions-results-receiver-production.githubapp.com/health: OK
+[2024-07-18 11:56:36Z INFO JobExtension] Connectivity check result: https://pipelinesghubeus11.actions.githubusercontent.com/_apis/health: OK
+[2024-07-18 11:56:36Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "complete_job",
+  "type": "runner",
+  "stage": "Post",
+  "stepId": "5823782b-7c99-4f33-b5ef-adc9f4dcee9a",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2024-07-18T11:56:35.576782Z",
+  "finishTime": "2024-07-18T11:56:36.326605Z"
+}.
+[2024-07-18 11:56:36Z INFO JobRunner] Job result after all job steps finish: Succeeded
+[2024-07-18 11:56:36Z INFO JobRunner] Completing the job execution context.
+[2024-07-18 11:56:36Z INFO JobRunner] Shutting down the job server queue.
+[2024-07-18 11:56:36Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2024-07-18 11:56:36Z INFO JobServerQueue] Got a step log file to send to results service.
+[2024-07-18 11:56:36Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_diag/blocks/55990d20-cfb6-4a31-a3d3-3cfc90aec421_e9ef45bf-5dc9-5291-ef92-11cf68cbcb22.1
+[2024-07-18 11:56:37Z INFO JobServerQueue] Try to upload 3 log files or attachments, success rate: 3/3.
+[2024-07-18 11:56:37Z INFO JobServerQueue] Got a step log file to send to results service.
+[2024-07-18 11:56:37Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_diag/blocks/55990d20-cfb6-4a31-a3d3-3cfc90aec421_9ea9778a-9128-4e4f-8624-a9e69feaa313.1
+[2024-07-18 11:56:37Z INFO JobServerQueue] Tried to upload 3 file(s) to results, success rate: 3/3.
+[2024-07-18 11:56:38Z INFO JobServerQueue] All queue process task stopped.
+[2024-07-18 11:56:38Z INFO JobServerQueue] Try to append 1 batches web console lines for record '96fdfcd3-7ef5-5e82-df4d-006ab21f14e7', success rate: 1/1.
+[2024-07-18 11:56:38Z INFO JobServerQueue] Web console line queue drained.
+[2024-07-18 11:56:38Z INFO JobServerQueue] Uploading 2 files in one shot.
+[2024-07-18 11:56:39Z INFO JobServerQueue] Try to upload 2 log files or attachments, success rate: 2/2.
+[2024-07-18 11:56:39Z INFO JobServerQueue] File upload queue drained.
+[2024-07-18 11:56:39Z INFO JobServerQueue] Starting results-based upload queue...
+[2024-07-18 11:56:39Z INFO JobServerQueue] Uploading 2 file(s) in one shot through results service.
+[2024-07-18 11:56:39Z INFO JobServerQueue] Got a step log file to send to results service.
+[2024-07-18 11:56:39Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_diag/blocks/55990d20-cfb6-4a31-a3d3-3cfc90aec421_5823782b-7c99-4f33-b5ef-adc9f4dcee9a.1
+[2024-07-18 11:56:39Z INFO JobServerQueue] Got a job log file to send to results service.
+[2024-07-18 11:56:39Z INFO JobServerQueue] Starting upload of job log file to results service ResultsLog, /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_diag/blocks/55990d20-cfb6-4a31-a3d3-3cfc90aec421_96fdfcd3-7ef5-5e82-df4d-006ab21f14e7.1
+[2024-07-18 11:56:40Z INFO JobServerQueue] Tried to upload 2 file(s) to results, success rate: 2/2.
+[2024-07-18 11:56:40Z INFO JobServerQueue] Results upload queue drained.
+[2024-07-18 11:56:41Z INFO JobServerQueue] Timeline update queue drained.
+[2024-07-18 11:56:41Z INFO JobServerQueue] Disposing job server ...
+[2024-07-18 11:56:41Z INFO JobServerQueue] Disposing results server ...
+[2024-07-18 11:56:41Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2024-07-18 11:56:41Z INFO JobServerQueue] Actions upload time: 3194 ms, Result upload time: 4042 ms
+[2024-07-18 11:56:41Z INFO TempDirectoryManager] Cleaning runner temp folder: /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_work/_temp
+[2024-07-18 11:56:41Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:41Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:56:41Z INFO HostContext] Well known directory 'Diag': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_diag'
+[2024-07-18 11:56:41Z INFO HostContext] Well known config file 'Telemetry': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/_diag/.telemetry'
+[2024-07-18 11:56:41Z INFO JobRunner] Raising job completed event
+[2024-07-18 11:56:41Z INFO Worker] Job completed.

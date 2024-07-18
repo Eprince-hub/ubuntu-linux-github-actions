@@ -115,3 +115,54 @@
 [2024-07-18 11:52:59Z INFO Terminal] WRITE LINE: Current runner version: '2.317.0'
 [2024-07-18 11:52:59Z INFO Terminal] WRITE LINE: 2024-07-18 11:52:59Z: Listening for Jobs
 [2024-07-18 11:52:59Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2024-07-18 11:56:06Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials_rsaparams
+[2024-07-18 11:56:06Z INFO MessageListener] Message '1' received from session 'c990b3a0-03a3-413b-b4d3-d135782697c9'.
+[2024-07-18 11:56:06Z INFO Runner] Received job message of length 24615 from service, with hash 'c02fe8bd7d84c348094167edd5098541c67f037ec0a30f7ef40cdd2576308b38'
+[2024-07-18 11:56:06Z INFO JobDispatcher] Job request 1 for plan 55990d20-cfb6-4a31-a3d3-3cfc90aec421 job 96fdfcd3-7ef5-5e82-df4d-006ab21f14e7 received.
+[2024-07-18 11:56:06Z INFO JobDispatcher] Pull OrchestrationId 55990d20-cfb6-4a31-a3d3-3cfc90aec421.update-conf.__default from JWT claims
+[2024-07-18 11:56:06Z INFO MessageListener] Received job status event. JobState: Busy
+[2024-07-18 11:56:06Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2024-07-18 11:56:06Z INFO Terminal] WRITE LINE: 2024-07-18 11:56:06Z: Running job: update-conf
+[2024-07-18 11:56:06Z INFO JobDispatcher] Start renew job request 1 for job 96fdfcd3-7ef5-5e82-df4d-006ab21f14e7.
+[2024-07-18 11:56:06Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 7/18/2024 12:06:06PM
+[2024-07-18 11:56:06Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:06Z INFO ProcessInvokerWrapper] Starting process:
+[2024-07-18 11:56:06Z INFO ProcessInvokerWrapper]   File name: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin/Runner.Worker'
+[2024-07-18 11:56:06Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 107 110'
+[2024-07-18 11:56:06Z INFO ProcessInvokerWrapper]   Working directory: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:56:06Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-07-18 11:56:06Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-07-18 11:56:06Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-07-18 11:56:06Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-07-18 11:56:06Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-07-18 11:56:06Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-07-18 11:56:06Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2024-07-18 11:56:06Z INFO ProcessInvokerWrapper] Process started with process id 16525, waiting for process exit.
+[2024-07-18 11:56:06Z INFO JobDispatcher] Send job request message to worker for job 96fdfcd3-7ef5-5e82-df4d-006ab21f14e7.
+[2024-07-18 11:56:06Z INFO ProcessChannel] Sending message of length 24615, with hash 'c02fe8bd7d84c348094167edd5098541c67f037ec0a30f7ef40cdd2576308b38'
+[2024-07-18 11:56:06Z INFO JobNotification] Entering JobStarted Notification
+[2024-07-18 11:56:06Z INFO JobNotification] Entering StartMonitor
+[2024-07-18 11:56:41Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:41Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:56:41Z INFO ProcessInvokerWrapper] Finished process 16525 with exit code 100, and elapsed time 00:00:34.4222519.
+[2024-07-18 11:56:41Z INFO JobDispatcher] Worker finished for job 96fdfcd3-7ef5-5e82-df4d-006ab21f14e7. Code: 100
+[2024-07-18 11:56:41Z INFO JobDispatcher] finish job request for job 96fdfcd3-7ef5-5e82-df4d-006ab21f14e7 with result: Succeeded
+[2024-07-18 11:56:41Z INFO Terminal] WRITE LINE: 2024-07-18 11:56:41Z: Job update-conf completed with result: Succeeded
+[2024-07-18 11:56:41Z INFO JobDispatcher] Stop renew job request for job 96fdfcd3-7ef5-5e82-df4d-006ab21f14e7.
+[2024-07-18 11:56:41Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 1.
+[2024-07-18 11:56:41Z INFO JobNotification] Entering JobCompleted Notification
+[2024-07-18 11:56:41Z INFO JobNotification] Entering EndMonitor
+[2024-07-18 11:56:41Z INFO MessageListener] Received job status event. JobState: Online
+[2024-07-18 11:56:41Z WARN GitHubActionsService] GET request to https://pipelinesghubeus11.actions.githubusercontent.com/gytf4YKzCCcYiPLR93WDNA1PtelAUNYTz6CZeFjAaZR1wxBFSQ/_apis/distributedtask/pools/1/messages?sessionId=c990b3a0-03a3-413b-b4d3-d135782697c9&lastMessageId=1&status=Busy&runnerVersion=2.317.0&os=macOS&architecture=ARM64&disableUpdate=false has been cancelled.
+[2024-07-18 11:56:41Z INFO MessageListener] Get messages has been cancelled using local token source. Continue to get messages with new status.
+[2024-07-18 12:11:56Z INFO Terminal] WRITE LINE: Exiting...
+[2024-07-18 12:11:56Z INFO ConfigurationStore] IsServiceConfigured()
+[2024-07-18 12:11:56Z INFO ConfigurationStore] IsServiceConfigured: False
+[2024-07-18 12:11:56Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2024-07-18 12:11:56Z WARN GitHubActionsService] GET request to https://pipelinesghubeus11.actions.githubusercontent.com/gytf4YKzCCcYiPLR93WDNA1PtelAUNYTz6CZeFjAaZR1wxBFSQ/_apis/distributedtask/pools/1/messages?sessionId=c990b3a0-03a3-413b-b4d3-d135782697c9&lastMessageId=1&status=Online&runnerVersion=2.317.0&os=macOS&architecture=ARM64&disableUpdate=false has been cancelled.
+[2024-07-18 12:11:56Z INFO MessageListener] Get next message has been cancelled.
+[2024-07-18 12:11:56Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2024-07-18 12:11:56Z INFO JobDispatcher] Ensure WorkerDispatcher for job 96fdfcd3-7ef5-5e82-df4d-006ab21f14e7 run to finish, cancel any running job.
+[2024-07-18 12:11:56Z INFO JobDispatcher] Job request 96fdfcd3-7ef5-5e82-df4d-006ab21f14e7 processed succeed.
+[2024-07-18 12:11:56Z INFO Runner] Deleting Runner Session...
+[2024-07-18 12:11:57Z INFO Listener] Runner execution been cancelled.
