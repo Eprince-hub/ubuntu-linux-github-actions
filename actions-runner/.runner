@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "Victors-Air",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus11.actions.githubusercontent.com/gytf4YKzCCcYiPLR93WDNA1PtelAUNYTz6CZeFjAaZR1wxBFSQ/",
+  "gitHubUrl": "https://github.com/Eprince-hub/ubuntu-linux-github-actions",
+  "workFolder": "_work"
+}

@@ -1,0 +1,220 @@
+[2024-07-18 11:32:16Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2024-07-18 11:32:16Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:32:16Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:32:16Z INFO HostContext] Well known config file 'Credentials': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials'
+[2024-07-18 11:32:16Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:32:16Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:32:16Z INFO HostContext] Well known config file 'Runner': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.runner'
+[2024-07-18 11:32:16Z INFO Listener] Runner is built for OSX (Arm64) - osx-arm64.
+[2024-07-18 11:32:16Z INFO Listener] RuntimeInformation: Darwin 23.5.0 Darwin Kernel Version 23.5.0: Wed May  1 20:16:51 PDT 2024; root:xnu-10063.121.3~5/RELEASE_ARM64_T8103.
+[2024-07-18 11:32:16Z INFO Listener] Version: 2.317.0
+[2024-07-18 11:32:16Z INFO Listener] Commit: 6dc005ee3690a0303e0d7269b6f60295d22dcfad
+[2024-07-18 11:32:16Z INFO Listener] Culture: en-US
+[2024-07-18 11:32:16Z INFO Listener] UI Culture: en-US
+[2024-07-18 11:32:16Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:32:16Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:32:16Z INFO Listener] Validating directory permissions for: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:32:16Z INFO CommandLineParser] Parse
+[2024-07-18 11:32:16Z INFO CommandLineParser] Parsing 5 args
+[2024-07-18 11:32:16Z INFO CommandLineParser] parsing argument
+[2024-07-18 11:32:16Z INFO CommandLineParser] HasArgs: False
+[2024-07-18 11:32:16Z INFO CommandLineParser] Adding Command: configure
+[2024-07-18 11:32:16Z INFO CommandLineParser] parsing argument
+[2024-07-18 11:32:16Z INFO CommandLineParser] HasArgs: True
+[2024-07-18 11:32:16Z INFO CommandLineParser] arg: url
+[2024-07-18 11:32:16Z INFO CommandLineParser] parsing argument
+[2024-07-18 11:32:16Z INFO CommandLineParser] HasArgs: True
+[2024-07-18 11:32:16Z INFO CommandLineParser] Adding option 'url': 'https://github.com/Eprince-hub/ubuntu-linux-github-actions'
+[2024-07-18 11:32:16Z INFO CommandLineParser] parsing argument
+[2024-07-18 11:32:16Z INFO CommandLineParser] HasArgs: True
+[2024-07-18 11:32:16Z INFO CommandLineParser] arg: token
+[2024-07-18 11:32:16Z INFO CommandLineParser] parsing argument
+[2024-07-18 11:32:16Z INFO CommandLineParser] HasArgs: True
+[2024-07-18 11:32:16Z INFO CommandLineParser] Adding option 'token': '***'
+[2024-07-18 11:32:16Z INFO Listener] Arguments parsed
+[2024-07-18 11:32:16Z INFO Runner] ExecuteCommand
+[2024-07-18 11:32:16Z INFO ConfigurationStore] currentAssemblyLocation: /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin/Runner.Listener.dll
+[2024-07-18 11:32:16Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:32:16Z INFO ConfigurationStore] binPath: /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin
+[2024-07-18 11:32:16Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:32:16Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:32:16Z INFO ConfigurationStore] RootFolder: /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner
+[2024-07-18 11:32:16Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:32:16Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:32:16Z INFO HostContext] Well known config file 'Runner': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.runner'
+[2024-07-18 11:32:16Z INFO ConfigurationStore] ConfigFilePath: /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.runner
+[2024-07-18 11:32:16Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:32:16Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:32:16Z INFO HostContext] Well known config file 'Credentials': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials'
+[2024-07-18 11:32:16Z INFO ConfigurationStore] CredFilePath: /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials
+[2024-07-18 11:32:16Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:32:16Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:32:16Z INFO HostContext] Well known config file 'MigratedCredentials': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials_migrated'
+[2024-07-18 11:32:16Z INFO ConfigurationStore] MigratedCredFilePath: /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials_migrated
+[2024-07-18 11:32:16Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:32:16Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:32:16Z INFO HostContext] Well known config file 'Service': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.service'
+[2024-07-18 11:32:16Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.service
+[2024-07-18 11:32:16Z INFO CommandSettings] Flag 'help': 'False'
+[2024-07-18 11:32:16Z INFO CommandSettings] Flag 'version': 'False'
+[2024-07-18 11:32:16Z INFO CommandSettings] Flag 'commit': 'False'
+[2024-07-18 11:32:16Z INFO CommandSettings] Flag 'check': 'False'
+[2024-07-18 11:32:16Z INFO CommandSettings] Command 'configure': 'True'
+[2024-07-18 11:32:16Z INFO Terminal] WRITE LINE: 
+[2024-07-18 11:32:16Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2024-07-18 11:32:16Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2024-07-18 11:32:16Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2024-07-18 11:32:16Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2024-07-18 11:32:16Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2024-07-18 11:32:16Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2024-07-18 11:32:16Z INFO Terminal] WRITE LINE: |                                                                              |
+[2024-07-18 11:32:16Z INFO Terminal] WRITE: |                       
+[2024-07-18 11:32:16Z INFO Terminal] WRITE: Self-hosted runner registration
+[2024-07-18 11:32:16Z INFO Terminal] WRITE LINE:                         |
+[2024-07-18 11:32:16Z INFO Terminal] WRITE LINE: |                                                                              |
+[2024-07-18 11:32:16Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2024-07-18 11:32:16Z INFO ConfigurationManager] ConfigureAsync
+[2024-07-18 11:32:16Z INFO CommandSettings] Flag 'generateServiceConfig': 'False'
+[2024-07-18 11:32:16Z INFO ConfigurationStore] IsConfigured()
+[2024-07-18 11:32:16Z INFO ConfigurationStore] IsConfigured: False
+[2024-07-18 11:32:16Z INFO ConfigurationManager] Is configured: False
+[2024-07-18 11:32:16Z INFO CommandSettings] Arg 'url': 'https://github.com/Eprince-hub/ubuntu-linux-github-actions'
+[2024-07-18 11:32:16Z INFO CommandSettings] Remove url from Arg dictionary.
+[2024-07-18 11:32:16Z INFO CommandSettings] Arg 'token': '***'
+[2024-07-18 11:32:16Z INFO CommandSettings] Remove token from Arg dictionary.
+[2024-07-18 11:32:17Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration' (27A2:3FDE23:88D8B7:8A1793:6698FD40)
+[2024-07-18 11:32:17Z INFO ConfigurationManager] Using V2 flow: False
+[2024-07-18 11:32:17Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2024-07-18 11:32:17Z INFO RunnerServer] EstablishVssConnection
+[2024-07-18 11:32:17Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2024-07-18 11:32:17Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-07-18 11:32:17Z INFO RunnerServer] EstablishVssConnection
+[2024-07-18 11:32:17Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-07-18 11:32:17Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-07-18 11:32:17Z INFO RunnerServer] EstablishVssConnection
+[2024-07-18 11:32:17Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-07-18 11:32:17Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-07-18 11:32:18Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-07-18 11:32:18Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-07-18 11:32:18Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-07-18 11:32:18Z INFO Terminal] WRITE LINE: 
+[2024-07-18 11:32:18Z INFO ConfigurationManager] Test Connection complete.
+[2024-07-18 11:32:18Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:32:18Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:32:18Z INFO HostContext] Well known config file 'RSACredentials': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials_rsaparams'
+[2024-07-18 11:32:18Z INFO RSAFileKeyManager] Creating new RSA key using 2048-bit key length
+[2024-07-18 11:32:19Z INFO RSAFileKeyManager] Successfully saved RSA key parameters to file /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials_rsaparams
+[2024-07-18 11:32:19Z INFO RSAFileKeyManager] Which2: 'chmod'
+[2024-07-18 11:32:19Z INFO RSAFileKeyManager] Location: '/bin/chmod'
+[2024-07-18 11:32:19Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:32:19Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:32:19Z INFO ProcessInvokerWrapper] Starting process:
+[2024-07-18 11:32:19Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2024-07-18 11:32:19Z INFO ProcessInvokerWrapper]   Arguments: '600 /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials_rsaparams'
+[2024-07-18 11:32:19Z INFO ProcessInvokerWrapper]   Working directory: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:32:19Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-07-18 11:32:19Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-07-18 11:32:19Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-07-18 11:32:19Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-07-18 11:32:19Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-07-18 11:32:19Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-07-18 11:32:19Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-07-18 11:32:19Z INFO ProcessInvokerWrapper] Process started with process id 96182, waiting for process exit.
+[2024-07-18 11:32:19Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:32:19Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:32:19Z INFO ProcessInvokerWrapper] Finished process 96182 with exit code 0, and elapsed time 00:00:00.0345701.
+[2024-07-18 11:32:19Z INFO RSAFileKeyManager] Successfully set permissions for RSA key parameters file /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials_rsaparams
+[2024-07-18 11:32:19Z INFO CommandSettings] Arg 'runnergroup': ''
+[2024-07-18 11:32:19Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-07-18 11:32:19Z INFO PromptManager] ReadValue
+[2024-07-18 11:32:19Z INFO Terminal] WRITE: Enter the name of the runner group to add this runner to: 
+[2024-07-18 11:32:19Z INFO Terminal] WRITE: [press Enter for Default] 
+[2024-07-18 11:32:19Z INFO Terminal] READ LINE
+[2024-07-18 11:33:36Z INFO Terminal] Read value: ''
+[2024-07-18 11:33:36Z INFO PromptManager] Falling back to the default: 'Default'
+[2024-07-18 11:33:36Z INFO Terminal] WRITE LINE: 
+[2024-07-18 11:33:36Z INFO ConfigurationManager] Found a self-hosted runner group with id 1 and name Default
+[2024-07-18 11:33:36Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2024-07-18 11:33:36Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2024-07-18 11:33:36Z INFO CommandSettings] Arg 'name': ''
+[2024-07-18 11:33:36Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-07-18 11:33:36Z INFO PromptManager] ReadValue
+[2024-07-18 11:33:36Z INFO Terminal] WRITE: Enter the name of runner: 
+[2024-07-18 11:33:36Z INFO Terminal] WRITE: [press Enter for Victors-Air] 
+[2024-07-18 11:33:36Z INFO Terminal] READ LINE
+[2024-07-18 11:34:28Z INFO Terminal] Read value: ''
+[2024-07-18 11:34:28Z INFO PromptManager] Falling back to the default: 'Victors-Air'
+[2024-07-18 11:34:28Z INFO Terminal] WRITE LINE: 
+[2024-07-18 11:34:28Z INFO CommandSettings] Arg 'labels': ''
+[2024-07-18 11:34:28Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-07-18 11:34:28Z INFO PromptManager] ReadValue
+[2024-07-18 11:34:28Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'macOS', 'ARM64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2024-07-18 11:34:28Z INFO Terminal] WRITE: [press Enter to skip] 
+[2024-07-18 11:34:28Z INFO Terminal] READ LINE
+[2024-07-18 11:34:40Z INFO Terminal] Read value: ''
+[2024-07-18 11:34:40Z INFO Terminal] WRITE LINE: 
+[2024-07-18 11:34:41Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2024-07-18 11:34:41Z INFO CommandSettings] Flag 'no-default-labels': 'False'
+[2024-07-18 11:34:41Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2024-07-18 11:34:41Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2024-07-18 11:34:41Z INFO ConfigurationStore] Saving OAuth credential @ /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials
+[2024-07-18 11:34:41Z INFO ConfigurationStore] Credentials Saved.
+[2024-07-18 11:34:41Z INFO ConfigurationStore] HasCredentials()
+[2024-07-18 11:34:41Z INFO ConfigurationStore] stored True
+[2024-07-18 11:34:41Z INFO CredentialManager] GetCredentialProvider
+[2024-07-18 11:34:41Z INFO CredentialManager] Creating type OAuth
+[2024-07-18 11:34:41Z INFO CredentialManager] Creating credential type: OAuth
+[2024-07-18 11:34:41Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials_rsaparams
+[2024-07-18 11:34:41Z INFO RunnerServer] EstablishVssConnection
+[2024-07-18 11:34:41Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2024-07-18 11:34:41Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-07-18 11:34:41Z INFO RunnerServer] EstablishVssConnection
+[2024-07-18 11:34:41Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-07-18 11:34:41Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-07-18 11:34:41Z INFO RunnerServer] EstablishVssConnection
+[2024-07-18 11:34:41Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-07-18 11:34:41Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-07-18 11:34:42Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-07-18 11:34:42Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-07-18 11:34:42Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-07-18 11:34:42Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials_rsaparams
+[2024-07-18 11:34:42Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials_rsaparams
+[2024-07-18 11:34:43Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-07-18 11:34:43Z INFO CommandSettings] Arg 'work': ''
+[2024-07-18 11:34:43Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-07-18 11:34:43Z INFO PromptManager] ReadValue
+[2024-07-18 11:34:43Z INFO Terminal] WRITE: Enter name of work folder: 
+[2024-07-18 11:34:43Z INFO Terminal] WRITE: [press Enter for _work] 
+[2024-07-18 11:34:43Z INFO Terminal] READ LINE
+[2024-07-18 11:34:49Z INFO Terminal] Read value: ''
+[2024-07-18 11:34:49Z INFO PromptManager] Falling back to the default: '_work'
+[2024-07-18 11:34:49Z INFO ConfigurationStore] Saving runner settings.
+[2024-07-18 11:34:49Z INFO ConfigurationStore] Settings Saved.
+[2024-07-18 11:34:49Z INFO Terminal] WRITE LINE: 
+[2024-07-18 11:34:49Z INFO Terminal] WRITE LINE: 
+[2024-07-18 11:34:49Z INFO OsxServiceControlManager] Service name 'actions.runner.Eprince-hub-ubuntu-linux-github-actions.Victors-Air' display name 'GitHub Actions Runner (Eprince-hub-ubuntu-linux-github-actions.Victors-Air)' will be used for service configuration.
+[2024-07-18 11:34:49Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:34:49Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:34:49Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:34:49Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 11:34:49Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:34:49Z INFO UnixUtil] Which2: 'chmod'
+[2024-07-18 11:34:49Z INFO UnixUtil] Location: '/bin/chmod'
+[2024-07-18 11:34:49Z INFO UnixUtil] Running /bin/chmod 755 "/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/svc.sh"
+[2024-07-18 11:34:49Z INFO ProcessInvokerWrapper] Starting process:
+[2024-07-18 11:34:49Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2024-07-18 11:34:49Z INFO ProcessInvokerWrapper]   Arguments: '755 "/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/svc.sh"'
+[2024-07-18 11:34:49Z INFO ProcessInvokerWrapper]   Working directory: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 11:34:49Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2024-07-18 11:34:49Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-07-18 11:34:49Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-07-18 11:34:49Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-07-18 11:34:49Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-07-18 11:34:49Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-07-18 11:34:49Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-07-18 11:34:49Z INFO ProcessInvokerWrapper] Process started with process id 98196, waiting for process exit.
+[2024-07-18 11:34:49Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:34:49Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 11:34:49Z INFO ProcessInvokerWrapper] Finished process 98196 with exit code 0, and elapsed time 00:00:00.0501692.
+[2024-07-18 11:34:49Z INFO Listener] Runner execution has finished with return code 0
