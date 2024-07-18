@@ -1,0 +1,198 @@
+[2024-07-18 14:39:04Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2024-07-18 14:39:04Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 14:39:04Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 14:39:04Z INFO HostContext] Well known config file 'Credentials': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials'
+[2024-07-18 14:39:05Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 14:39:05Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 14:39:05Z INFO HostContext] Well known config file 'Runner': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.runner'
+[2024-07-18 14:39:05Z INFO Listener] Runner is built for OSX (Arm64) - osx-arm64.
+[2024-07-18 14:39:05Z INFO Listener] RuntimeInformation: Darwin 23.5.0 Darwin Kernel Version 23.5.0: Wed May  1 20:16:51 PDT 2024; root:xnu-10063.121.3~5/RELEASE_ARM64_T8103.
+[2024-07-18 14:39:05Z INFO Listener] Version: 2.317.0
+[2024-07-18 14:39:05Z INFO Listener] Commit: 6dc005ee3690a0303e0d7269b6f60295d22dcfad
+[2024-07-18 14:39:05Z INFO Listener] Culture: en-US
+[2024-07-18 14:39:05Z INFO Listener] UI Culture: en-US
+[2024-07-18 14:39:05Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 14:39:05Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 14:39:05Z INFO Listener] Validating directory permissions for: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 14:39:05Z INFO CommandLineParser] Parse
+[2024-07-18 14:39:05Z INFO CommandLineParser] Parsing 1 args
+[2024-07-18 14:39:05Z INFO CommandLineParser] parsing argument
+[2024-07-18 14:39:05Z INFO CommandLineParser] HasArgs: False
+[2024-07-18 14:39:05Z INFO CommandLineParser] Adding Command: run
+[2024-07-18 14:39:05Z INFO Listener] Arguments parsed
+[2024-07-18 14:39:05Z INFO Runner] ExecuteCommand
+[2024-07-18 14:39:05Z INFO ConfigurationStore] currentAssemblyLocation: /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin/Runner.Listener.dll
+[2024-07-18 14:39:05Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 14:39:05Z INFO ConfigurationStore] binPath: /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin
+[2024-07-18 14:39:05Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 14:39:05Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 14:39:05Z INFO ConfigurationStore] RootFolder: /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner
+[2024-07-18 14:39:05Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 14:39:05Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 14:39:05Z INFO HostContext] Well known config file 'Runner': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.runner'
+[2024-07-18 14:39:05Z INFO ConfigurationStore] ConfigFilePath: /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.runner
+[2024-07-18 14:39:05Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 14:39:05Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 14:39:05Z INFO HostContext] Well known config file 'Credentials': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials'
+[2024-07-18 14:39:05Z INFO ConfigurationStore] CredFilePath: /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials
+[2024-07-18 14:39:05Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 14:39:05Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 14:39:05Z INFO HostContext] Well known config file 'MigratedCredentials': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials_migrated'
+[2024-07-18 14:39:05Z INFO ConfigurationStore] MigratedCredFilePath: /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials_migrated
+[2024-07-18 14:39:05Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 14:39:05Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 14:39:05Z INFO HostContext] Well known config file 'Service': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.service'
+[2024-07-18 14:39:05Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.service
+[2024-07-18 14:39:05Z INFO CommandSettings] Flag 'help': 'False'
+[2024-07-18 14:39:05Z INFO CommandSettings] Flag 'version': 'False'
+[2024-07-18 14:39:05Z INFO CommandSettings] Flag 'commit': 'False'
+[2024-07-18 14:39:05Z INFO CommandSettings] Flag 'check': 'False'
+[2024-07-18 14:39:05Z INFO CommandSettings] Command 'configure': 'False'
+[2024-07-18 14:39:05Z INFO CommandSettings] Command 'remove': 'False'
+[2024-07-18 14:39:05Z INFO CommandSettings] Command 'warmup': 'False'
+[2024-07-18 14:39:05Z INFO ConfigurationManager] LoadSettings
+[2024-07-18 14:39:05Z INFO ConfigurationStore] IsConfigured()
+[2024-07-18 14:39:05Z INFO ConfigurationStore] IsConfigured: True
+[2024-07-18 14:39:05Z INFO ConfigurationManager] Is configured: True
+[2024-07-18 14:39:05Z INFO ConfigurationStore] Read setting file: 317 chars
+[2024-07-18 14:39:05Z INFO ConfigurationManager] Settings Loaded
+[2024-07-18 14:39:05Z INFO ConfigurationStore] IsServiceConfigured()
+[2024-07-18 14:39:05Z INFO ConfigurationStore] IsServiceConfigured: False
+[2024-07-18 14:39:05Z INFO CommandSettings] Command 'run': 'True'
+[2024-07-18 14:39:05Z INFO ConfigurationStore] IsConfigured()
+[2024-07-18 14:39:05Z INFO ConfigurationStore] IsConfigured: True
+[2024-07-18 14:39:05Z INFO ConfigurationManager] Is configured: True
+[2024-07-18 14:39:05Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2024-07-18 14:39:05Z INFO Runner] Set runner startup type - Manual
+[2024-07-18 14:39:05Z INFO CommandSettings] Flag 'once': 'False'
+[2024-07-18 14:39:05Z INFO CommandSettings] Flag 'once': 'False'
+[2024-07-18 14:39:05Z INFO Runner] RunAsync
+[2024-07-18 14:39:05Z INFO ConfigurationManager] LoadSettings
+[2024-07-18 14:39:05Z INFO ConfigurationStore] IsConfigured()
+[2024-07-18 14:39:05Z INFO ConfigurationStore] IsConfigured: True
+[2024-07-18 14:39:05Z INFO ConfigurationManager] Is configured: True
+[2024-07-18 14:39:05Z INFO ConfigurationManager] Settings Loaded
+[2024-07-18 14:39:05Z INFO MessageListener] {
+  "AgentId": 2,
+  "AgentName": "Victors-Air",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelinesghubeus11.actions.githubusercontent.com/gytf4YKzCCcYiPLR93WDNA1PtelAUNYTz6CZeFjAaZR1wxBFSQ/",
+  "GitHubUrl": "https://github.com/Eprince-hub/ubuntu-linux-github-actions",
+  "WorkFolder": "_work"
+}
+[2024-07-18 14:39:05Z INFO MessageListener] Loading Credentials
+[2024-07-18 14:39:05Z INFO ConfigurationStore] HasCredentials()
+[2024-07-18 14:39:05Z INFO ConfigurationStore] stored True
+[2024-07-18 14:39:05Z INFO CredentialManager] GetCredentialProvider
+[2024-07-18 14:39:05Z INFO CredentialManager] Creating type OAuth
+[2024-07-18 14:39:05Z INFO CredentialManager] Creating credential type: OAuth
+[2024-07-18 14:39:05Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 14:39:05Z INFO HostContext] Well known directory 'Root': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner'
+[2024-07-18 14:39:05Z INFO HostContext] Well known config file 'RSACredentials': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials_rsaparams'
+[2024-07-18 14:39:05Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials_rsaparams
+[2024-07-18 14:39:05Z INFO MessageListener] Attempt to create session.
+[2024-07-18 14:39:05Z INFO MessageListener] Connecting to the Runner Server...
+[2024-07-18 14:39:05Z INFO RunnerServer] EstablishVssConnection
+[2024-07-18 14:39:05Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2024-07-18 14:39:05Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-07-18 14:39:05Z INFO RunnerServer] EstablishVssConnection
+[2024-07-18 14:39:05Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-07-18 14:39:05Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-07-18 14:39:05Z INFO RunnerServer] EstablishVssConnection
+[2024-07-18 14:39:05Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-07-18 14:39:05Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-07-18 14:39:06Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-07-18 14:39:06Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-07-18 14:39:06Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-07-18 14:39:06Z INFO MessageListener] VssConnection created
+[2024-07-18 14:39:06Z INFO Terminal] WRITE LINE: 
+[2024-07-18 14:39:06Z INFO Terminal] WRITE LINE: 
+[2024-07-18 14:39:06Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials_rsaparams
+[2024-07-18 14:39:06Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials_rsaparams
+[2024-07-18 14:39:06Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-07-18 14:39:07Z INFO MessageListener] Session created.
+[2024-07-18 14:39:07Z INFO Terminal] WRITE LINE: Current runner version: '2.317.0'
+[2024-07-18 14:39:07Z INFO Terminal] WRITE LINE: 2024-07-18 14:39:07Z: Listening for Jobs
+[2024-07-18 14:39:07Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2024-07-18 14:39:11Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials_rsaparams
+[2024-07-18 14:39:11Z INFO MessageListener] Message '2' received from session '698c1a04-721b-4ecd-9a84-2097fdde825a'.
+[2024-07-18 14:39:11Z INFO Runner] Received job message of length 23971 from service, with hash '0a21a82b820ad9c35cd4239c422ec5aa0d6808715303ef4ef7f7c5b8051a7800'
+[2024-07-18 14:39:11Z INFO JobDispatcher] Job request 2 for plan 29ce23aa-af31-4a80-b01b-25682e983a4f job 96fdfcd3-7ef5-5e82-df4d-006ab21f14e7 received.
+[2024-07-18 14:39:11Z INFO JobDispatcher] Pull OrchestrationId 29ce23aa-af31-4a80-b01b-25682e983a4f.update-conf.__default from JWT claims
+[2024-07-18 14:39:11Z INFO MessageListener] Received job status event. JobState: Busy
+[2024-07-18 14:39:11Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2024-07-18 14:39:11Z INFO Terminal] WRITE LINE: 2024-07-18 14:39:11Z: Running job: update-conf
+[2024-07-18 14:39:11Z INFO JobDispatcher] Start renew job request 2 for job 96fdfcd3-7ef5-5e82-df4d-006ab21f14e7.
+[2024-07-18 14:39:11Z INFO JobDispatcher] Successfully renew job request 2, job is valid till 7/18/2024 2:49:11PM
+[2024-07-18 14:39:11Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 14:39:11Z INFO ProcessInvokerWrapper] Starting process:
+[2024-07-18 14:39:11Z INFO ProcessInvokerWrapper]   File name: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin/Runner.Worker'
+[2024-07-18 14:39:11Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 107 110'
+[2024-07-18 14:39:11Z INFO ProcessInvokerWrapper]   Working directory: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 14:39:11Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-07-18 14:39:11Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-07-18 14:39:11Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-07-18 14:39:11Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-07-18 14:39:11Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-07-18 14:39:11Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-07-18 14:39:11Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2024-07-18 14:39:11Z INFO ProcessInvokerWrapper] Process started with process id 6194, waiting for process exit.
+[2024-07-18 14:39:11Z INFO JobDispatcher] Send job request message to worker for job 96fdfcd3-7ef5-5e82-df4d-006ab21f14e7.
+[2024-07-18 14:39:11Z INFO ProcessChannel] Sending message of length 23971, with hash '0a21a82b820ad9c35cd4239c422ec5aa0d6808715303ef4ef7f7c5b8051a7800'
+[2024-07-18 14:39:11Z INFO JobNotification] Entering JobStarted Notification
+[2024-07-18 14:39:11Z INFO JobNotification] Entering StartMonitor
+[2024-07-18 14:39:23Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 14:39:23Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 14:39:23Z INFO ProcessInvokerWrapper] Finished process 6194 with exit code 100, and elapsed time 00:00:11.9633293.
+[2024-07-18 14:39:23Z INFO JobDispatcher] Worker finished for job 96fdfcd3-7ef5-5e82-df4d-006ab21f14e7. Code: 100
+[2024-07-18 14:39:23Z INFO JobDispatcher] finish job request for job 96fdfcd3-7ef5-5e82-df4d-006ab21f14e7 with result: Succeeded
+[2024-07-18 14:39:23Z INFO Terminal] WRITE LINE: 2024-07-18 14:39:23Z: Job update-conf completed with result: Succeeded
+[2024-07-18 14:39:23Z INFO JobDispatcher] Stop renew job request for job 96fdfcd3-7ef5-5e82-df4d-006ab21f14e7.
+[2024-07-18 14:39:23Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 2.
+[2024-07-18 14:39:23Z INFO JobNotification] Entering JobCompleted Notification
+[2024-07-18 14:39:23Z INFO JobNotification] Entering EndMonitor
+[2024-07-18 14:39:23Z INFO MessageListener] Received job status event. JobState: Online
+[2024-07-18 14:39:23Z WARN GitHubActionsService] GET request to https://pipelinesghubeus11.actions.githubusercontent.com/gytf4YKzCCcYiPLR93WDNA1PtelAUNYTz6CZeFjAaZR1wxBFSQ/_apis/distributedtask/pools/1/messages?sessionId=698c1a04-721b-4ecd-9a84-2097fdde825a&lastMessageId=2&status=Busy&runnerVersion=2.317.0&os=macOS&architecture=ARM64&disableUpdate=false has been cancelled.
+[2024-07-18 14:39:23Z INFO MessageListener] Get messages has been cancelled using local token source. Continue to get messages with new status.
+[2024-07-18 14:39:25Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/.credentials_rsaparams
+[2024-07-18 14:39:25Z INFO MessageListener] Message '3' received from session '698c1a04-721b-4ecd-9a84-2097fdde825a'.
+[2024-07-18 14:39:25Z INFO Runner] Received job message of length 24407 from service, with hash '8814f5d0821fc90bb407dd336942b7e905765bde66e5a44d464b0806ab1acdf4'
+[2024-07-18 14:39:25Z INFO JobDispatcher] Job request 3 for plan c2101166-c184-4e26-ada8-1b08e22de8d9 job 96fdfcd3-7ef5-5e82-df4d-006ab21f14e7 received.
+[2024-07-18 14:39:25Z INFO JobDispatcher] Pull OrchestrationId c2101166-c184-4e26-ada8-1b08e22de8d9.update-conf.__default from JWT claims
+[2024-07-18 14:39:25Z INFO MessageListener] Received job status event. JobState: Busy
+[2024-07-18 14:39:25Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2024-07-18 14:39:25Z INFO JobDispatcher] Job request 96fdfcd3-7ef5-5e82-df4d-006ab21f14e7 processed succeed.
+[2024-07-18 14:39:25Z INFO Terminal] WRITE LINE: 2024-07-18 14:39:25Z: Running job: update-conf
+[2024-07-18 14:39:25Z INFO JobDispatcher] Start renew job request 3 for job 96fdfcd3-7ef5-5e82-df4d-006ab21f14e7.
+[2024-07-18 14:39:25Z INFO JobDispatcher] Successfully renew job request 3, job is valid till 7/18/2024 2:49:25PM
+[2024-07-18 14:39:25Z INFO HostContext] Well known directory 'Bin': '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 14:39:25Z INFO ProcessInvokerWrapper] Starting process:
+[2024-07-18 14:39:25Z INFO ProcessInvokerWrapper]   File name: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin/Runner.Worker'
+[2024-07-18 14:39:25Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 108 112'
+[2024-07-18 14:39:25Z INFO ProcessInvokerWrapper]   Working directory: '/Users/upleveled/projects/ubuntu-linux-github-actions/actions-runner/bin'
+[2024-07-18 14:39:25Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-07-18 14:39:25Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-07-18 14:39:25Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-07-18 14:39:25Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-07-18 14:39:25Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-07-18 14:39:25Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-07-18 14:39:25Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2024-07-18 14:39:25Z INFO ProcessInvokerWrapper] Process started with process id 6581, waiting for process exit.
+[2024-07-18 14:39:25Z INFO JobDispatcher] Send job request message to worker for job 96fdfcd3-7ef5-5e82-df4d-006ab21f14e7.
+[2024-07-18 14:39:25Z INFO ProcessChannel] Sending message of length 24407, with hash '8814f5d0821fc90bb407dd336942b7e905765bde66e5a44d464b0806ab1acdf4'
+[2024-07-18 14:39:25Z INFO JobNotification] Entering JobStarted Notification
+[2024-07-18 14:39:25Z INFO JobNotification] Entering StartMonitor
+[2024-07-18 14:39:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 14:39:36Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-07-18 14:39:36Z INFO ProcessInvokerWrapper] Finished process 6581 with exit code 102, and elapsed time 00:00:10.9122148.
+[2024-07-18 14:39:36Z INFO JobDispatcher] Worker finished for job 96fdfcd3-7ef5-5e82-df4d-006ab21f14e7. Code: 102
+[2024-07-18 14:39:36Z INFO JobDispatcher] finish job request for job 96fdfcd3-7ef5-5e82-df4d-006ab21f14e7 with result: Failed
+[2024-07-18 14:39:36Z INFO Terminal] WRITE LINE: 2024-07-18 14:39:36Z: Job update-conf completed with result: Failed
+[2024-07-18 14:39:36Z INFO JobDispatcher] Stop renew job request for job 96fdfcd3-7ef5-5e82-df4d-006ab21f14e7.
+[2024-07-18 14:39:36Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 3.
+[2024-07-18 14:39:36Z INFO JobNotification] Entering JobCompleted Notification
+[2024-07-18 14:39:36Z INFO JobNotification] Entering EndMonitor
+[2024-07-18 14:39:36Z INFO MessageListener] Received job status event. JobState: Online
+[2024-07-18 14:39:36Z WARN GitHubActionsService] GET request to https://pipelinesghubeus11.actions.githubusercontent.com/gytf4YKzCCcYiPLR93WDNA1PtelAUNYTz6CZeFjAaZR1wxBFSQ/_apis/distributedtask/pools/1/messages?sessionId=698c1a04-721b-4ecd-9a84-2097fdde825a&lastMessageId=3&status=Busy&runnerVersion=2.317.0&os=macOS&architecture=ARM64&disableUpdate=false has been cancelled.
+[2024-07-18 14:39:36Z INFO MessageListener] Get messages has been cancelled using local token source. Continue to get messages with new status.
