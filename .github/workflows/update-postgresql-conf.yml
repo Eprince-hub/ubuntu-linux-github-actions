@@ -15,6 +15,7 @@ jobs:
 
       - name: Update PostgreSQL Conf
         run: |
-          # Example command to update postgresql.conf
           echo "Updating postgresql.conf..."
-          echo "Postgres file path..."
+          sudo -u postgres psql --tuples-only --pset format=unaligned --command 'SHOW config_file;' || echo "Error: Could not retrieve PostgreSQL config file path" >&2
+          sudo sed -i -E "/^[[:space:]]*lc_messages[[:space:]]*=/ s/^#*.*$/lc_messages = 'en_US.UTF-8'/" "$(sudo -u postgres psql --tuples-only --pset format=unaligned --command 'SHOW config_file;')" || echo "Postgres config file missing" >&2
+          echo "Updated postgresql.conf"
