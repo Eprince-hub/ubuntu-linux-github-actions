@@ -1,0 +1,20 @@
+name: Update PostgreSQL Conf
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-conf:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Update PostgreSQL Conf
+        run: |
+          # Example command to update postgresql.conf
+          echo "Updating postgresql.conf..."
+          echo "Postgres file path..."
