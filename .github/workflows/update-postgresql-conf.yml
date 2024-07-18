@@ -13,9 +13,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Build Docker image
+        run: |
+          echo "Building Docker image..."
+          docker build -t my-postgres-image .
+
+      - name: Start Docker container
+        run: |
+          echo "Starting Docker container..."
+          docker run --name my-postgres-container -d my-postgres-image
+
+      - name: Run Linux Bash for the Docker container
+        run: |
+          echo "Running Linux Bash for the Docker container..."
+          docker exec -it my-postgres-container bash
+
       - name: Update PostgreSQL Conf
         run: |
           echo "Updating postgresql.conf..."
-          # sudo -u postgres psql --tuples-only --pset format=unaligned --command 'SHOW config_file;' || echo "Error: Could not retrieve PostgreSQL config file path" >&2
-          # sudo sed -i -E "/^[[:space:]]*lc_messages[[:space:]]*=/ s/^#*.*$/lc_messages = 'en_US.UTF-8'/" "$(sudo -u postgres psql --tuples-only --pset format=unaligned --command 'SHOW config_file;')" || echo "Postgres config file missing" >&2
+          sudo -u postgres psql --tuples-only --pset format=unaligned --command 'SHOW config_file;' || echo "Error: Could not retrieve PostgreSQL config file path" >&2
+          sudo sed -i -E "/^[[:space:]]*lc_messages[[:space:]]*=/ s/^#*.*$/lc_messages = 'en_US.UTF-8'/" "$(sudo -u postgres psql --tuples-only --pset format=unaligned --command 'SHOW config_file;')" || echo "Postgres config file missing" >&2
           echo "Updated postgresql.conf"
